@@ -1,0 +1,86 @@
+@import (reference) "nav.less";
+
+section {
+   div.container {
+      div.public {
+         div.public-sec {
+            padding: 30px 0;
+            div.publ-top {
+               text-align: center;
+               border-bottom: 4px solid @bj;
+               padding: 10px 0;
+               p {
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: @bj;
+               }
+            }
+            table {
+               tbody {
+                  tr {
+                     &:nth-of-type(odd) {
+                        background: #f8f8f8;
+                     }
+                     td {
+                        border-top: none;
+                        color: #333;
+                        &:first-child {
+                           font-weight: bold;
+                           width: 200px;
+                        }
+                     }
+                  }
+               }
+            }
+            div.s {
+               background: #f8f8f8;
+               padding: 30px 15px;
+            }
+            a.fh {
+               display: block;
+               width: 120px;
+               height: 40px;
+               line-height: 40px;
+               text-align: center;
+               margin: auto;
+               margin-top: 20px;
+               background: @bj;
+               color: #fff;
+               border-radius: 5px;
+               font-size: 16px;
+            }
+         }
+      }
+   }
+   div.link {
+      background: #efefef;
+      padding: 30px 0 15px;
+      div.container {
+         position: relative;
+         p {
+            width: 147px;
+            height: 34px;
+            line-height: 34px;
+            background-image: url("https://img.sandbox.qixinyun.com/pxiang-link-bj.png");
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            position: absolute;
+            top: -40px;
+            left: 0;
+         }
+         div {
+            a {
+               width: 13.4%;
+               background: #fff;
+               border: 1px solid #ddd;
+               height: 32px;
+               line-height: 30px;
+               text-align: center;
+               margin-top: 10px;
+               margin-left: 1%;
+            }
+         }
+      }
+   }
+}

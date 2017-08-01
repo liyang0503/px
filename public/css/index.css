@@ -1,0 +1,264 @@
+ul.new-list li {
+  line-height: 30px;
+}
+ul.new-list li a {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+ul.new-list li a i.ii {
+  display: inline-block;
+  vertical-align: middle;
+  width: 5px;
+  height: 5px;
+  background: #2f88a6;
+  border-radius: 50%;
+}
+ul.new-list.rt-ul {
+  display: none;
+}
+ul.new-list.rt-ul.active {
+  display: block;
+}
+ul.new-list.rt-ul2 {
+  display: none;
+}
+ul.new-list.rt-ul2.active {
+  display: block;
+}
+ul.time li a {
+  position: relative;
+  padding-right: 76px;
+}
+ul.time li a span {
+  font-size: 12px;
+  color: #999;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+ul.time li a span.s1 {
+  position: relative;
+  color: #333;
+  font-size: 14px;
+  padding-right: 3px;
+}
+ul.time li a span.s2 {
+  background: #ff7c86;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+  font-weight: bold;
+}
+ul.time li a span.s2.top {
+  background: #e60012;
+}
+ul.time li a img.img2 {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 12px;
+}
+section div.container div.index {
+  padding: 20px 0;
+}
+section div.container div.index a.gd {
+  color: #999;
+  line-height: 28px;
+}
+section div.container div.index ul.new-list2 li {
+  line-height: 30px;
+}
+section div.container div.index ul.new-list2 li a {
+  display: block;
+}
+section div.container div.index ul.new-list2 li a p {
+  max-width: 90%;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+section div.container div.index div.index-le > div.row {
+  margin-bottom: 20px;
+}
+section div.container div.index div.index-le > div.row div.new {
+  padding-right: 15px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top {
+  margin-bottom: 5px;
+  line-height: 36px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top > span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2f88a6;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top ul {
+  float: left;
+  margin-left: 10px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top ul li a {
+  font-size: 16px;
+  color: #666;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top ul li a:hover {
+  color: #2f88a6;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top ul li i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #11385a;
+  border-radius: 50%;
+  margin: 3px 6px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top div {
+  margin-top: 4px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top div s {
+  width: 85px;
+  border-bottom: 1px solid #eee;
+  margin-top: 14px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top div i {
+  width: 7px;
+  height: 7px;
+  background: #eee;
+  border-radius: 50%;
+  margin-top: 11px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top div a {
+  margin-left: 5px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media {
+  margin: 10px 0 5px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-body p {
+  color: #999;
+  font-size: 12px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-body p span {
+  float: right;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec a.gd-list {
+  line-height: 120%;
+  float: right;
+  margin-top: -25px;
+}
+section div.container div.index div.index-le div.gg {
+  margin-bottom: 20px;
+}
+section div.container div.index div.index-le div.gg img {
+  max-width: 100%;
+}
+section div.container div.index div.index-rt {
+  padding-left: 3px;
+}
+section div.container div.index div.index-rt div.sg {
+  margin-bottom: 15px;
+}
+section div.container div.index div.index-rt div.sg a {
+  display: block;
+}
+section div.container div.index div.index-rt div.sg a img {
+  width: 100%;
+}
+section div.container div.index div.index-rt div.rt-new {
+  margin-bottom: 20px;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top {
+  margin-bottom: 10px;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > span {
+  font-size: 16px;
+  color: #fff;
+  background: #59aae0;
+  padding: 2px 8px;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > span.s2 {
+  background: #e84b42;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div {
+  width: 225px;
+  border-top: 4px solid #59aae0;
+  margin-left: 8px;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div.d2 {
+  border-color: #e84b42;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li {
+  padding: 1px 8px;
+  cursor: pointer;
+  color: #666;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li.active,
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li:hover {
+  color: #59aae0;
+}
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li.rt-li2.active,
+section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li.rt-li2:hover {
+  color: #e84b42;
+}
+@media screen and (min-width: 1000px) {
+  ul.new-1 {
+    min-height: 210px;
+  }
+  ul.new-2 {
+    min-height: 180px;
+  }
+  ul.new-3 {
+    min-height: 150px;
+  }
+  ul.new-4 {
+    min-height: 300px;
+  }
+  ul.new-5 {
+    height: 295px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section div.container div.index {
+    padding: 15px 0;
+  }
+  section div.container div.index ul.new-list li {
+    line-height: 25px;
+  }
+  section div.container div.index ul.new-list.time li a img.img2 {
+    top: 8px;
+  }
+  section div.container div.index ul.new-list2 li {
+    line-height: 25px;
+  }
+  section div.container div.index div.index-le > div.row {
+    margin-bottom: 0;
+  }
+  section div.container div.index div.index-le > div.row div.new {
+    margin-bottom: 15px;
+    padding-right: 0;
+  }
+  section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-left {
+    width: 36%;
+  }
+  section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-left.zs {
+    width: 25%;
+  }
+  section div.container div.index div.index-rt {
+    padding-left: 0;
+  }
+  section div.container div.index div.index-rt div.rt-new:last-child {
+    margin-bottom: 0;
+  }
+  section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li {
+    padding: 2px 8px;
+  }
+}

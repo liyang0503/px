@@ -1,0 +1,125 @@
+footer div.foot-top {
+  padding: 10px 0 20px;
+}
+footer div.foot-top div.container div.fot-ul2 {
+  margin-bottom: 15px;
+}
+footer div.foot-top div.container div.fot-ul2 ul.tit li {
+  font-size: 16px;
+  padding: 5px 30px;
+  margin-right: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer div.foot-top div.container div.fot-ul2 ul.tit li:hover,
+footer div.foot-top div.container div.fot-ul2 ul.tit li.active {
+  background: #2f88a6;
+  color: #fff;
+}
+footer div.foot-top div.container div.fot-ul2 div.ul2-sec {
+  padding: 15px;
+  border: 1px solid #333;
+  display: none;
+}
+footer div.foot-top div.container div.fot-ul2 div.ul2-sec.active {
+  display: block;
+}
+footer div.foot-top div.container div.fot-ul2 div.ul2-sec ul li {
+  width: 20%;
+}
+footer div.foot-top div.container div.fot-ul2 div.ul2-sec ul li a {
+  display: block;
+  padding: 2px 5px;
+}
+footer div.foot-top div.container div.fot-img div a {
+  display: block;
+  padding: 10px;
+}
+footer div.foot-top div.container div.fot-img div a img {
+  max-width: 100%;
+  margin: auto;
+}
+footer div.foot div.container {
+  text-align: center;
+  padding: 15px 0;
+  color: #767676;
+}
+footer div.foot div.container ul {
+  display: inline-block;
+}
+footer div.foot div.container ul li {
+  border-right: 1px solid #767676;
+}
+footer div.foot div.container ul li a {
+  display: block;
+  padding: 0 10px;
+  line-height: 100%;
+  color: #767676;
+}
+footer div.foot div.container ul li:last-child {
+  border: none;
+}
+footer div.foot div.container p {
+  line-height: 110%;
+}
+footer div.foot.foot2 {
+  background-image: url("https://img.sandbox.qixinyun.com/pxiang-nav-bj.jpg");
+  background-size: cover;
+}
+footer div.foot.foot2 div.container {
+  color: #fff;
+  position: relative;
+}
+footer div.foot.foot2 div.container ul li {
+  border-right: 1px solid #fff;
+}
+footer div.foot.foot2 div.container ul li a {
+  color: #fff;
+}
+footer div.foot.foot2 div.container ul li:last-child {
+  border: none;
+}
+footer div.foot.foot2 div.container > img {
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: -120px;
+}
+footer div.foot.foot2 div.container p a {
+  color: #fff;
+}
+@media screen and (max-width: 993px) {
+  footer div.foot-top {
+    padding: 5px 0;
+  }
+  footer div.foot-top div.container div.fot-img div a {
+    padding: 5px 10px;
+  }
+  footer div.foot div.container {
+    padding: 10px 0;
+  }
+  footer div.foot div.container > img {
+    display: none;
+  }
+  footer div.foot div.container ul li a {
+    padding: 0 3px;
+    font-size: 1.2rem;
+  }
+  footer div.foot div.container p {
+    line-height: 110%;
+    font-size: 1.2rem;
+  }
+  footer div.foot div.container p a {
+    color: #fff;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer div.foot-top {
+    padding: 5px 0;
+  }
+  footer div.foot-top div.container div.fot-img div a {
+    padding: 5px 10px;
+  }
+}

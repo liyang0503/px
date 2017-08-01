@@ -1,0 +1,22 @@
+div.info div.news-top {
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+}
+div.info div.news-top p.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+div.info div.news-top p.p2 {
+  color: #888;
+}
+div.info div.news-top p.p2 span {
+  float: right;
+}
+div.info div.news-s img {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+}

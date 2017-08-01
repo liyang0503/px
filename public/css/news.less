@@ -1,0 +1,88 @@
+@import (reference) "nav.less";
+
+section {
+   div.container {
+      div.news {
+         div.news-sec {
+            padding: 15px 0;
+            div.news-le {
+               color: #333;
+               div.news-top {
+                  margin-bottom: 15px;
+                  border-bottom: 1px dashed #ccc;
+                  padding-bottom: 5px;
+                  p.title {
+                     font-weight: bold;
+                     font-size: 24px;
+                     text-align: center;
+                     margin-bottom: 5px;
+                  }
+                  p.p2 {
+                     color: #888;
+                     span {
+                        float: right;
+                     }
+                  }
+               }
+               div.news-s {
+                  img {
+                     display: block;
+                     max-width: 100%;
+                     margin: 10px auto;
+                  }
+               }
+               a.ac {
+                  display: block;
+                  width: 100px;
+                  text-align: center;
+                  margin: 25px auto 15px;
+                  color: #e4393c;
+               }
+            }
+            div.news-rt {
+               padding-left: 45px;
+               p.tit {
+                  font-size: 22px;
+                  border-bottom: 1px solid #e4393c;
+               }
+               ul.news-ul {
+                  line-height: 50px;
+                  li {
+                     border-bottom: 1px dotted #ddd;
+                     a {
+                        display: block;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        padding-right: 76px;
+                        span:first-child {
+                           display: inline-block;
+                           vertical-align: middle;
+                           width: 18px;
+                           height: 18px;
+                           text-align: center;
+                           line-height: 18px;
+                           border-radius: 50%;
+                           background: #ff7c86;
+                           color: #fff;
+                           font-weight: bold;
+                           font-style: italic;
+                           margin-right: 3px;
+                           &.top {
+                              background: #e60012;
+                           }
+                        }
+                        span.t {
+                           position: absolute;
+                           right: 0;
+                           font-size: 12px;
+                           color: #999;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

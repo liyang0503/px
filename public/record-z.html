@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>信用萍乡</title>
+   <!--样式表-->
+   <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <!--本页主体css-->
+   <link rel="stylesheet" href="css/public-list.css">
+
+   <!--js库文件-->
+   <script src="js/jquery/jquery.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
+   <script src="js/layer/layer.js"></script>
+   <script src="js/global.js"></script>
+
+   <!--[if lt IE 9]>
+   <script src="js/placeholder.js"></script>
+   <script src="js/html5.js"></script>
+   <script src="js/respond.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--头部-->
+<header>
+   <div class="container head-pc hidden-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl"><a href="login.html">登录</a></li>
+         <li class="fl"><a href="zhuce.html">注册</a></li>
+         <li class="fl"><a href="http://www.creditjx.gov.cn/">信用江西</a></li>
+      </ul>
+   </div>
+   <div class="container visible-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl"><a href="login.html">登录</a></li>
+         <li class="fl"><a href="zhuce.html">注册</a></li>
+         <li class="fl"><a href="http://www.creditjx.gov.cn/">信用江西</a></li>
+      </ul>
+   </div>
+   <!--导航-->
+   <nav>
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="index.html">首页</a></li>
+            <li class="fl"><a href="zuzhi.html">组织架构</a></li>
+            <li class="fl"><a href="public-list.html">信息双公示</a></li>
+            <li class="fl"><a href="red-black.html">信用红黑榜</a></li>
+            <li class="fl"><a href="zhengce.html">政策法规</a></li>
+            <li class="fl active"><a href="record.html">信用档案</a></li>
+            <li class="fl"><a href="jianguan.html">信用监管</a></li>
+            <li class="fl"><a href="list.html">信用新闻</a></li>
+            <li class="fl"><a href="zhuanti.html">专题建设</a></li>
+            <li class="fl"><a href="zhushou.html">信用助手</a></li>
+            <li class="fl"><a href="hdJL.html">互动交流</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+<!--主体-->
+<section>
+   <div class="container">
+      <div class="public">
+         <div class="info-top hidden-xs hidden-sm">
+            <a href="index.html"><img src="https://img.sandbox.qixinyun.com/pxiang-info-ico-01.png" alt=""></a>
+            <a href="record.html" class="a1">信用档案</a>
+            <span class="a1">政府机关</span>
+            <div class="search-box">
+               <form action="">
+                  <input type="text" placeholder="请输入搜索内容">
+                  <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
+               </form>
+            </div>
+         </div>
+         <div class="info-top visible-xs visible-sm">
+            <span>政府机关</span>
+            <span class="s2 s2-ico glyphicon glyphicon-triangle-bottom"></span>
+            <ul class="ls">
+               <li><a href="record.html">企业法人</a></li>
+               <li><a href="record-z.html">政府机关</a></li>
+               <li><a href="record-s.html">事业单位</a></li>
+            </ul>
+         </div>
+         <div class="search-box visible-xs visible-sm">
+            <form action="">
+               <input type="text" placeholder="请输入搜索内容">
+               <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
+            </form>
+         </div>
+         <div class="public-list">
+            <div class="row hidden-xs hidden-sm">
+               <div class="pub-le fl">
+                  <div class="pub-t">
+                     <img src="https://img.sandbox.qixinyun.com/pxiang-info-t-03.png" alt="">
+                  </div>
+                  <ul class="pub-ul">
+                     <li>
+                        <a href="record.html"><s></s><i></i>企业法人</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li class="active">
+                        <a href="record-z.html"><s></s><i></i>政府机关</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li>
+                        <a href="record-s.html"><s></s><i></i>事业单位</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                  </ul>
+               </div>
+               <div class="pub-rt fl">
+                  <div class="record">
+                     <ul class="rec-top">
+                        <li class="rec-li active">按部门展示</li>
+                        <li class="rec-li">按更新时间</li>
+                     </ul>
+                     <div class="rec-sec book hidden-xs active">
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                        </ul>
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                        </ul>
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="rec-sec time">
+                        <table class="table">
+                           <thead>
+                           <tr>
+                              <th>行政机构</th>
+                              <th>主体名称</th>
+                              <th>数目</th>
+                              <th>更新时间</th>
+                           </tr>
+                           </thead>
+                           <tbody>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">备案年审信息</a></td>
+                              <td class="td3"><a href="record-list.html">26 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">水路危险货物驾驶人员、装卸管理人员上岗资格信息</a></td>
+                              <td class="td3"><a href="record-list.html">45 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">排污许可证信息</a></td>
+                              <td class="td3"><a href="record-list.html">15,389 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">备案年审信息</a></td>
+                              <td class="td3"><a href="record-list.html">10 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">水路危险货物驾驶人员、装卸管理人员上岗资格信息</a></td>
+                              <td class="td3"><a href="record-list.html">392 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">排污许可证信息</a></td>
+                              <td class="td3"><a href="record-list.html">13 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">备案年审信息</a></td>
+                              <td class="td3"><a href="record-list.html">62,315 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">水路危险货物驾驶人员、装卸管理人员上岗资格信息</a></td>
+                              <td class="td3"><a href="record-list.html">1,243 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">排污许可证信息</a></td>
+                              <td class="td3"><a href="record-list.html">18 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           <tr>
+                              <td><a href="record-list.html">省发改委</a></td>
+                              <td><a href="record-list.html">水路危险货物驾驶人员、装卸管理人员上岗资格信息</a></td>
+                              <td class="td3"><a href="record-list.html">13 条</a></td>
+                              <td class="td4"><a href="record-list.html">[ 更新至2017-06-15 ]</a></td>
+                           </tr>
+                           </tbody>
+                        </table>
+                        <div aria-label="Page navigation" class="page">
+                           <ul class="pagination">
+                              <li class="disabled">
+                                 <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                 </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                 <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row visible-xs visible-sm">
+               <div class="pub-rt fl">
+                  <div class="record">
+                     <ul class="rec-top">
+                        <li class="rec-li active">按部门展示</li>
+                        <li class="rec-li">按更新时间</li>
+                     </ul>
+                     <div class="rec-sec book active">
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                        </ul>
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                        </ul>
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                        </ul>
+                        <ul class="row">
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市发改委</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市警察局</span></a>
+                           </li>
+                           <li class="fl">
+                              <a href="record-book.html"><span class="bm">市环保局</span></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="rec-sec time">
+                        <div class="time-list">
+                           <a href="record-list.html">
+                              <p>备案年审信息</p>
+                              <div>
+                                 <span class="s0">省商务厅</span>
+                                 <span class="s1">13条</span>
+                                 <span class="s2">[ 更新至2017.06.23 ]</span>
+                              </div>
+                           </a>
+                           <a href="record-list.html">
+                              <p>水路危险货物驾驶人员、装卸管理人员上岗资格信息</p>
+                              <div>
+                                 <span class="s0">省发改委</span>
+                                 <span class="s1">1,432条</span>
+                                 <span class="s2">[ 更新至2017.06.23 ]</span>
+                              </div>
+                           </a>
+                           <a href="record-list.html">
+                              <p>排污许可证信息</p>
+                              <div>
+                                 <span class="s0">省发改委</span>
+                                 <span class="s1">136条</span>
+                                 <span class="s2">[ 更新至2017.06.23 ]</span>
+                              </div>
+                           </a>
+                           <a href="record-list.html">
+                              <p>备案年审信息</p>
+                              <div>
+                                 <span class="s0">省发改委</span>
+                                 <span class="s1">106条</span>
+                                 <span class="s2">[ 更新至2017.06.23 ]</span>
+                              </div>
+                           </a>
+                           <a href="record-list.html">
+                              <p>水路危险货物驾驶人员、装卸管理人员上岗资格信息</p>
+                              <div>
+                                 <span class="s0">省发改委</span>
+                                 <span class="s1">1,432条</span>
+                                 <span class="s2">[ 更新至2017.06.20 ]</span>
+                              </div>
+                           </a>
+                           <a href="record-list.html">
+                              <p>排污许可证信息</p>
+                              <div>
+                                 <span class="s0">省发改委</span>
+                                 <span class="s1">136条</span>
+                                 <span class="s2">[ 更新至2017.06.19 ]</span>
+                              </div>
+                           </a>
+                        </div>
+                        <div aria-label="Page navigation" class="page">
+                           <ul class="pagination">
+                              <li class="disabled">
+                                 <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                 </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                 <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!--PC底部-->
+<footer>
+   <div class="foot foot2">
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="info.html">帮助说明</a></li>
+            <li class="fl"><a href="info.html">技术支持</a></li>
+            <li class="fl"><a href="info.html">链接我站</a></li>
+            <li class="fl"><a href="info.html">隐私保护</a></li>
+            <li class="fl"><a href="info.html">版权声明</a></li>
+            <li class="fl"><a href="info.html">关于我们</a></li>
+         </ul>
+         <p>备案号：赣ICP备12000701号-1 Copyright©信用萍乡 <a href="http://www.qixinyun.com">企信云</a>提供技术支持</p>
+         <img src="https://img.sandbox.qixinyun.com/pxiang-foot-bj.png" alt="">
+      </div>
+   </div>
+</footer>
+
+
+<!--本页js-->
+<script src="js/record.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+section div.container div.news div.news-sec {
+  padding: 15px 0;
+}
+section div.container div.news div.news-sec div.news-le {
+  color: #333;
+}
+section div.container div.news div.news-sec div.news-le div.news-top {
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+}
+section div.container div.news div.news-sec div.news-le div.news-top p.title {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+section div.container div.news div.news-sec div.news-le div.news-top p.p2 {
+  color: #888;
+}
+section div.container div.news div.news-sec div.news-le div.news-top p.p2 span {
+  float: right;
+}
+section div.container div.news div.news-sec div.news-le div.news-s img {
+  display: block;
+  max-width: 100%;
+  margin: 10px auto;
+}
+section div.container div.news div.news-sec div.news-le a.ac {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 25px auto 15px;
+  color: #e4393c;
+}
+section div.container div.news div.news-sec div.news-rt {
+  padding-left: 45px;
+}
+section div.container div.news div.news-sec div.news-rt p.tit {
+  font-size: 22px;
+  border-bottom: 1px solid #e4393c;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul {
+  line-height: 50px;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul li {
+  border-bottom: 1px dotted #ddd;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul li a {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-right: 76px;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul li a span:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 50%;
+  background: #ff7c86;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 3px;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul li a span:first-child.top {
+  background: #e60012;
+}
+section div.container div.news div.news-sec div.news-rt ul.news-ul li a span.t {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+  color: #999;
+}

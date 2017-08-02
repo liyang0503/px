@@ -359,10 +359,7 @@ div.search-box input {
     font-weight: bold;
   }
   nav div.container ul li.active {
-    background: #fff;
-  }
-  nav div.container ul li.active a {
-    color: #2f88a6;
+    background: #1c5264;
   }
   nav div.container ul li:hover {
     background: #55f5ff;

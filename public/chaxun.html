@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>信用萍乡</title>
+   <!--样式表-->
+   <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <!--本页主体css-->
+   <link rel="stylesheet" href="css/public-list.css">
+
+   <!--js库文件-->
+   <script src="js/jquery/jquery.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
+   <script src="js/layer/layer.js"></script>
+   <script src="js/global.js"></script>
+
+   <!--[if lt IE 9]>
+   <script src="js/placeholder.js"></script>
+   <script src="js/html5.js"></script>
+   <script src="js/respond.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--头部-->
+<header>
+   <div class="container head-pc hidden-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl"><a href="login.html">登录</a></li>
+         <li class="fl"><a href="zhuce.html">注册</a></li>
+         <li class="fl"><a href="http://www.creditjx.gov.cn/">信用江西</a></li>
+      </ul>
+   </div>
+   <div class="container visible-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl"><a href="login.html">登录</a></li>
+         <li class="fl"><a href="zhuce.html">注册</a></li>
+         <li class="fl"><a href="http://www.creditjx.gov.cn/">信用江西</a></li>
+      </ul>
+   </div>
+   <!--导航-->
+   <nav>
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="index.html">首页</a></li>
+            <li class="fl"><a href="zuzhi.html">组织架构</a></li>
+            <li class="fl"><a href="public-list.html">信息双公示</a></li>
+            <li class="fl"><a href="red-black.html">信用红黑榜</a></li>
+            <li class="fl"><a href="zhengce.html">政策法规</a></li>
+            <li class="fl"><a href="record.html">信用档案</a></li>
+            <li class="fl"><a href="jianguan.html">信用监管</a></li>
+            <li class="fl"><a href="list.html">信用新闻</a></li>
+            <li class="fl"><a href="zhuanti.html">专题建设</a></li>
+            <li class="fl"><a href="zhushou.html">信用助手</a></li>
+            <li class="fl active"><a href="hdJL.html">互动交流</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+<!--主体-->
+<section>
+   <div class="container">
+      <div class="public">
+         <div class="info-top hidden-xs hidden-sm">
+            <a href="index.html"><img src="https://img.sandbox.qixinyun.com/pxiang-info-ico-01.png" alt=""></a>
+            <a href="hdJL.html" class="a1">互动交流</a>
+            <a href="hdJL.html" class="a1">概要流程</a>
+            <span class="a1">我要申诉</span>
+         </div>
+         <div class="info-top visible-xs visible-sm">
+            <span>我要申诉</span>
+            <span class="s2 s2-ico glyphicon glyphicon-triangle-bottom"></span>
+            <ul class="ls">
+               <li><a href="chaxun.html">我要申诉</a></li>
+               <li><a href="chaxun-x.html">我要查询</a></li>
+            </ul>
+         </div>
+         <div class="public-list">
+            <div class="row">
+               <div class="pub-le hidden-xs hidden-sm fl">
+                  <div class="pub-t">
+                     <img src="https://img.sandbox.qixinyun.com/pxiang-info-t-10.png" alt="">
+                  </div>
+                  <ul class="pub-ul">
+                     <li class="active">
+                        <a href="chaxun.html"><s></s><i></i>我要申诉</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li>
+                        <a href="chaxun-x.html"><s></s><i></i>我要查询</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                  </ul>
+               </div>
+               <div class="pub-rt fl">
+                  <div class="pub-rt-s">
+                     <div class="chas-sec">
+                        <form action="" onsubmit="return back();">
+                           <div class="d1">
+                              <p class="tit">被申诉单位名称</p>
+                              <input type="text" class="in in1">
+                           </div>
+                           <div class="d1">
+                              <p class="tit">申诉申请人姓名</p>
+                              <input type="text" class="in in2">
+                           </div>
+                           <div class="d1">
+                              <p class="tit">申诉申请人身份证号</p>
+                              <input type="text" class="in in3">
+                           </div>
+                           <div class="d1">
+                              <p class="tit">申诉申请人所在地区</p>
+                              <div class="d1-2">
+                                 <select class="in" name="" id="">
+                                    <option value="">江西省</option>
+                                 </select>
+                                 <span>省</span>
+                                 <select class="in" name="" id="">
+                                    <option value="">南昌市</option>
+                                    <option value="">景德镇市</option>
+                                    <option value="">萍乡市</option>
+                                    <option value="">九江市</option>
+                                    <option value="">新余市</option>
+                                    <option value="">鹰潭市</option>
+                                    <option value="">赣州市</option>
+                                    <option value="">吉安市</option>
+                                    <option value="">宜春市</option>
+                                    <option value="">抚州市</option>
+                                    <option value="">上饶市</option>
+                                 </select>
+                                 <span>市</span>
+                                 <select class="in" name="" id="">
+                                    <option value="">市辖区</option>
+                                    <option value="">东湖区</option>
+                                    <option value="">西湖区</option>
+                                    <option value="">青云谱区</option>
+                                    <option value="">湾里区</option>
+                                    <option value="">青山湖区</option>
+                                    <option value="">南昌县</option>
+                                    <option value="">新建县</option>
+                                    <option value="">安义县</option>
+                                    <option value="">进贤县</option>
+                                 </select>
+                                 <span>县（区）</span>
+                              </div>
+                           </div>
+                           <div class="d1" style="margin-bottom: 0;">
+                              <p class="tit">填写联系方式（<span style="color: red">请如实填写--移动电话或固定电话请至少填写一种联系方式</span>）</p>
+                              <div class="d1-3 row">
+                                 <div class="col-xs-12 col-sm-6">
+                                    <p class="tit">移动电话</p>
+                                    <input type="tel" class="in in2">
+                                 </div>
+                                 <div class="col-xs-12 col-sm-6">
+                                    <p class="tit">固定电话</p>
+                                    <input type="tel" class="in in2">
+                                 </div>
+                                 <div class="col-xs-12 col-sm-6">
+                                    <p class="tit">电子信箱</p>
+                                    <input type="email" class="in in2">
+                                 </div>
+                                 <div class="col-xs-12 col-sm-6">
+                                    <p class="tit">联系地址</p>
+                                    <input type="text" class="in in5">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="d1">
+                              <p class="tit">异议申诉主题</p>
+                              <input type="text" class="in in1">
+                           </div>
+                           <div class="d1">
+                              <p class="tit">异议申诉内容</p>
+                              <textarea name="" id="" rows="12"></textarea>
+                              <p class="p2">内容文字不能超过2000字，如果内容过长请适当压缩。</p>
+                           </div>
+
+                           <div class="d2">
+                              <input type="submit" value="提交">
+                              <input type="reset" value="重置">
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!--PC底部-->
+<footer>
+   <div class="foot foot2">
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="info.html">帮助说明</a></li>
+            <li class="fl"><a href="info.html">技术支持</a></li>
+            <li class="fl"><a href="info.html">链接我站</a></li>
+            <li class="fl"><a href="info.html">隐私保护</a></li>
+            <li class="fl"><a href="info.html">版权声明</a></li>
+            <li class="fl"><a href="info.html">关于我们</a></li>
+         </ul>
+         <p>备案号：赣ICP备12000701号-1 Copyright©信用萍乡 <a href="http://www.qixinyun.com">企信云</a>提供技术支持</p>
+      </div>
+   </div>
+</footer>
+
+
+<!--本页js-->
+<script>
+   function back() {
+      layer.msg('提交成功');
+      return false;
+   }
+</script>
+</body>
+</html>

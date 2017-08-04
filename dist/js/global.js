@@ -98,5 +98,5 @@ function mar(ma, num) {
 }
 
 function msg() {
-   layer.msg('功能正在开发中');
+   layer.msg('错误：数据请求错误！');
 }

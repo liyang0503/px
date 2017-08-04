@@ -319,6 +319,20 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   text-align: center;
   font-weight: bold;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-but {
+  text-align: center;
+  padding: 15px 0;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-but a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  font-size: 16px;
+  background: #2f88a6;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 5px;
+}
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y {
   padding: 25px;
   position: relative;
@@ -352,6 +366,98 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   background: #2f88a6;
   top: 37px;
   left: 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec {
+  padding: 20px 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 {
+  margin-bottom: 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 p.tit {
+  margin-bottom: 6px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  height: 30px;
+  line-height: 28px;
+  padding: 2px 15px;
+  background: #fafafa;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in.in1 {
+  width: 550px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in.in3 {
+  width: 260px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-2 span {
+  padding: 0 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-3 div {
+  margin-bottom: 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-3 div .in5 {
+  width: 85%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 textarea {
+  width: 85%;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 p.p2 {
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 {
+  width: 85%;
+  text-align: center;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 input {
+  width: 80px;
+  font-size: 16px;
+  color: #fff;
+  background: #2f88a6;
+  border: none;
+  margin: 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 input:hover {
+  background: #38a3c7;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec {
+  padding: 50px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div {
+  padding: 15px 0;
+  padding-left: 6%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div:last-child {
+  border-left: 1px solid #2f88a6;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  height: 30px;
+  line-height: 28px;
+  padding: 2px 15px;
+  background: #fafafa;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in.in1 {
+  width: 85%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d1 {
+  margin-bottom: 15px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 {
+  width: 85%;
+  text-align: center;
+  margin-top: 30px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 input {
+  width: 80px;
+  font-size: 16px;
+  background: #2f88a6;
+  color: #fff;
+  border: none;
 }
 @media screen and (max-width: 993px) {
   section {
@@ -447,5 +553,35 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   }
   section div.container div.public div.public-list div.pub-sj-list > ul li a div span {
     float: right;
+  }
+}
+@media screen and (max-width: 767px) {
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 .in.in1 {
+    width: 100%;
+    max-width: 550px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 div.d1-2 select {
+    margin-top: 5px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 textarea {
+    width: 100%;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d2 {
+    width: 100%;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec {
+    padding: 15px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div {
+    padding-left: 0;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div:last-child {
+    border-left: none;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in.in1 {
+    width: 100%;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 {
+    width: 100%;
   }
 }

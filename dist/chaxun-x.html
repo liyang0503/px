@@ -72,28 +72,16 @@
          <div class="info-top hidden-xs hidden-sm">
             <a href="index.html"><img src="https://img.sandbox.qixinyun.com/pxiang-info-ico-01.png" alt=""></a>
             <a href="hdJL.html" class="a1">互动交流</a>
-            <span class="a1">概要流程</span>
-            <div class="search-box">
-               <form action="">
-                  <input type="text" placeholder="请输入搜索内容">
-                  <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
-               </form>
-            </div>
+            <a href="hdJL.html" class="a1">概要流程</a>
+            <span class="a1">我要申诉</span>
          </div>
          <div class="info-top visible-xs visible-sm">
-            <span>概要流程</span>
+            <span>我要申诉</span>
             <span class="s2 s2-ico glyphicon glyphicon-triangle-bottom"></span>
             <ul class="ls">
-               <li><a href="hdJL.html">概要流程</a></li>
-               <li><a href="hdJL-x.html">信用问答</a></li>
-               <li><a href="hdJL-y.html">意见反馈</a></li>
+               <li><a href="chaxun.html">我要申诉</a></li>
+               <li><a href="chaxun-x.html">我要查询</a></li>
             </ul>
-         </div>
-         <div class="search-box visible-xs visible-sm">
-            <form action="">
-               <input type="text" placeholder="请输入搜索内容">
-               <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
-            </form>
          </div>
          <div class="public-list">
             <div class="row">
@@ -102,39 +90,50 @@
                      <img src="https://img.sandbox.qixinyun.com/pxiang-info-t-10.png" alt="">
                   </div>
                   <ul class="pub-ul">
+                     <li>
+                        <a href="chaxun.html"><s></s><i></i>我要申诉</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
                      <li class="active">
-                        <a href="hdJL.html"><s></s><i></i>概要流程</a>
-                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
-                     </li>
-                     <li>
-                        <a href="hdJL-x.html"><s></s><i></i>信用问答</a>
-                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
-                     </li>
-                     <li>
-                        <a href="hdJL-y.html"><s></s><i></i>意见反馈</a>
+                        <a href="chaxun-x.html"><s></s><i></i>我要查询</a>
                         <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
                      </li>
                   </ul>
                </div>
                <div class="pub-rt fl">
                   <div class="pub-rt-s">
-                     <div class="hdjl-sec">
-                        <div class="hd-top">
-                           <ul class="row">
-                              <li class="fl">异议申请</li>
-                              <li class="fl">异议受理</li>
-                              <li class="fl">异议核查</li>
-                              <li class="fl">异议回复</li>
-                              <li class="fl">结果查询</li>
-                           </ul>
-                           <img src="https://img.sandbox.qixinyun.com/pxiang-hd-01.png" alt=""
-                                class="img-responsive hidden-xs">
-                           <img src="https://img.sandbox.qixinyun.com/pxiang-hd-02.png" alt=""
-                                class="img-responsive visible-xs">
-                        </div>
-                        <div class="hd-but">
-                           <a href="chaxun.html">我要申诉</a>
-                           <a href="chaxun-x.html">我要查询</a>
+                     <div class="chax-sec">
+                        <div class="row">
+                           <div class="col-sm-6 col-xs-12 chax-1">
+                              <form action="">
+                                 <div class="d1">
+                                    <p class="tit">姓名</p>
+                                    <input type="text" class="in">
+                                 </div>
+                                 <div class="d1">
+                                    <p class="tit">身份证号</p>
+                                    <input type="text" class="in in1">
+                                 </div>
+                                 <div class="d2">
+                                    <input type="button" value="查询">
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="col-sm-6 col-xs-12 chax-1">
+                              <form action="">
+                                 <div class="d1">
+                                    <p class="tit">姓名</p>
+                                    <input type="text" class="in">
+                                 </div>
+                                 <div class="d1">
+                                    <p class="tit">身份证号</p>
+                                    <input type="text" class="in in1">
+                                 </div>
+                                 <div class="d2">
+                                    <input type="button" value="查询">
+                                 </div>
+                              </form>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -164,6 +163,11 @@
 
 
 <!--本页js-->
-
+<script>
+   function back() {
+      layer.msg('提交成功');
+      return false;
+   }
+</script>
 </body>
 </html>

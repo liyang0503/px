@@ -333,131 +333,160 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   margin: 0 10px;
   border-radius: 5px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y {
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun {
+  margin-top: 15px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div {
+  padding: 20px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s {
+  background: #fbfbfb;
   padding: 25px;
-  position: relative;
+  color: #2f88a6;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y p.hdy-top {
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot {
-  margin-top: 20px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot textarea {
-  display: block;
-  width: 100%;
-  padding: 5px 10px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot button {
-  display: block;
-  margin: 25px auto;
-  width: 115px;
-  font-size: 16px;
-  background: #2f88a6;
-  color: #fff;
-  border: none;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y:before {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background: #2f88a6;
-  top: 37px;
-  left: 10px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec {
-  padding: 20px 10px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 {
-  margin-bottom: 12px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 p.tit {
-  margin-bottom: 6px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in {
-  border: 1px solid #ddd;
-  border-radius: 25px;
-  height: 30px;
-  line-height: 28px;
-  padding: 2px 15px;
-  background: #fafafa;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in.in1 {
-  width: 550px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 .in.in3 {
-  width: 260px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-2 span {
-  padding: 0 10px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-3 div {
-  margin-bottom: 12px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 div.d1-3 div .in5 {
-  width: 85%;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 textarea {
-  width: 85%;
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  background: #fafafa;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d1 p.p2 {
-  color: red;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 {
-  width: 85%;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s p.t {
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 input {
-  width: 80px;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s div {
+  margin-bottom: 20px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s div span {
+  display: inline-block;
+  vertical-align: middle;
   font-size: 16px;
-  color: #fff;
-  background: #2f88a6;
-  border: none;
-  margin: 10px;
+  width: 82px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chas-sec div.d2 input:hover {
-  background: #38a3c7;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s div input {
+  width: 65%;
+  padding: 2px 5px;
+  border: 1px solid #bfbfbf;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chaxun div.row > div div.s .but {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  width: 100px;
+  border: none;
+  background: #2f88a6;
+  color: #fff;
+  font-size: 16px;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec {
-  padding: 50px;
+  padding: 10px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div {
-  padding: 15px 0;
-  padding-left: 6%;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec > p {
+  font-size: 16px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div:last-child {
-  border-left: 1px solid #2f88a6;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec > p span.s1 {
+  font-weight: bold;
+  color: #2f88a6;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in {
-  border: 1px solid #ddd;
-  border-radius: 25px;
-  height: 30px;
-  line-height: 28px;
-  padding: 2px 15px;
-  background: #fafafa;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec > p span.s2 {
+  color: red;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in.in1 {
-  width: 85%;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec table {
+  margin-top: 20px;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d1 {
-  margin-bottom: 15px;
-}
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 {
-  width: 85%;
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec table thead tr th {
+  border-bottom-color: #2f88a6;
+  background: #eef4fa;
+  color: #2f88a6;
   text-align: center;
-  margin-top: 30px;
+  vertical-align: middle;
 }
-section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 input {
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec table tbody tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec table tbody tr td a {
+  display: block;
+  text-align: left;
+}
+section div.container div.public div.public-list div.chas-sec {
+  margin: auto;
+  width: 565px;
+  height: 901px;
+  background-image: url("https://img.sandbox.qixinyun.com/pxiang-chax-bj.png");
+  padding: 20px;
+  margin-top: 15px;
+}
+section div.container div.public div.public-list div.chas-sec div.chas-top {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2f88a6;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+section div.container div.public div.public-list div.chas-sec div.chas-top span {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 {
+  margin-bottom: 16px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 > * {
+  _display: inline;
+  display: inline-block;
+  vertical-align: top;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 span.tit {
+  width: 115px;
+  text-align: right;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 span.xing {
+  color: red;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 span.sh {
+  color: #999;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 .in {
+  border: 1px solid #d0d2d5;
+  padding: 2px 5px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 .in.in1 {
+  width: 260px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 .in.in2 {
+  width: 120px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 .in.in3 {
+  width: 200px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 .in.in4 {
+  width: 330px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 input.in {
+  height: 28px;
+}
+section div.container div.public div.public-list div.chas-sec div.d1 img {
+  height: 28px;
+  border: 1px solid #d0d2d5;
+}
+section div.container div.public div.public-list div.chas-sec div.d2 {
+  text-align: center;
+  padding-top: 10px;
+}
+section div.container div.public div.public-list div.chas-sec div.d2 input {
+  -webkit-appearance: none;
+  border: none;
+  height: 30px;
   width: 80px;
   font-size: 16px;
-  background: #2f88a6;
+  background: none;
+}
+section div.container div.public div.public-list div.chas-sec div.d2 input.int-1 {
+  background-image: url("https://img.sandbox.qixinyun.com/pxiang-login-ico-01.png");
+  background-position: center;
+  background-size: cover;
   color: #fff;
-  border: none;
+}
+section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
+  color: #2f88a6;
 }
 @media screen and (max-width: 993px) {
   section {
@@ -528,17 +557,11 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
     width: 100px;
   }
   section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top {
-    padding: 20px;
+    padding: 20px 50px;
   }
   section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top ul {
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 10px;
-  }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top ul li {
-    width: 20%;
-    text-align: center;
-    font-weight: bold;
+    margin-left: -50px;
+    margin-right: -50px;
   }
   section div.container div.public div.public-list div.pub-sj-list > ul li a {
     display: block;
@@ -556,32 +579,34 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   }
 }
 @media screen and (max-width: 767px) {
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 .in.in1 {
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top {
+    padding: 20px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top ul {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  section div.container div.public div.public-list div.chas-sec {
     width: 100%;
-    max-width: 550px;
+    height: auto;
+    background-image: none;
+    padding: 0;
   }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 div.d1-2 select {
-    margin-top: 5px;
+  section div.container div.public div.public-list div.chas-sec div.d1 {
+    margin-bottom: 10px;
   }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d1 textarea {
+  section div.container div.public div.public-list div.chas-sec div.d1 span.tit {
     width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
   }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.d2 {
-    width: 100%;
+  section div.container div.public div.public-list div.chas-sec div.d1 span.tit.t2 {
+    width: auto;
   }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec {
-    padding: 15px;
+  section div.container div.public div.public-list div.chas-sec div.d1 .in.in1 {
+    width: 75%;
   }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div {
-    padding-left: 0;
-  }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div:last-child {
-    border-left: none;
-  }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div .in.in1 {
-    width: 100%;
-  }
-  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec div.row > div div.d2 {
-    width: 100%;
+  section div.container div.public div.public-list div.chas-sec div.d1 .in.in4 {
+    width: 95%;
   }
 }

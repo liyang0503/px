@@ -143,6 +143,9 @@ section div.container div.index div.index-le > div.row div.new div.new-top div a
 section div.container div.index div.index-le > div.row div.new div.new-sec div.media {
   margin: 10px 0 5px;
 }
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media.qa {
+  margin-bottom: 11px;
+}
 section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-body p {
   color: #999;
   font-size: 12px;

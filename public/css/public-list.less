@@ -384,145 +384,174 @@ section {
                            }
                         }
                      }
-                     div.hdjl-y {
-                        padding: 25px;
-                        position: relative;
-                        p.hdy-top {
-                           font-size: 16px;
-                           letter-spacing: 1px;
-                        }
-                        div.hdy-fot {
-                           margin-top: 20px;
-                           textarea {
-                              display: block;
-                              width: 100%;
-                              padding: 5px 10px;
-                           }
-                           button {
-                              display: block;
-                              margin: 25px auto;
-                              width: 115px;
-                              font-size: 16px;
-                              background: @bj;
-                              color: #fff;
-                              border: none;
-                           }
-                        }
-                        &:before {
-                           content: "";
-                           position: absolute;
-                           width: 5px;
-                           height: 5px;
-                           background: @bj;
-                           top: 37px;
-                           left: 10px;
-                        }
-                     }
-                  }
-
-                  //   我要查询
-                  div.pub-rt-s {
-                     div.chas-sec {
-                        padding: 20px 10px;
-                        div.d1 {
-                           margin-bottom: 12px;
-                           p.tit {
-                              margin-bottom: 6px;
-                           }
-                           .in {
-                              border: 1px solid #ddd;
-                              border-radius: 25px;
-                              height: 30px;
-                              line-height: 28px;
-                              padding: 2px 15px;
-                              background: @hui;
-                              &.in1 {
-                                 width: 550px;
-                              }
-                              &.in3 {
-                                 width: 260px;
-                              }
-                           }
-                           div.d1-2 {
-                              span {
-                                 padding: 0 10px;
-                              }
-                           }
-                           div.d1-3 {
-                              div {
-                                 margin-bottom: 12px;
-                                 .in5 {
-                                    width: 85%;
+                     div.chaxun {
+                        margin-top: 15px;
+                        div.row {
+                           > div {
+                              padding: 20px;
+                              div.s {
+                                 background: #fbfbfb;
+                                 padding: 25px;
+                                 color: @bj;
+                                 p.t {
+                                    text-align: center;
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                    margin-bottom: 30px;
+                                 }
+                                 div {
+                                    margin-bottom: 20px;
+                                    span {
+                                       display: inline-block;
+                                       vertical-align: middle;
+                                       font-size: 16px;
+                                       width: 82px;
+                                    }
+                                    input {
+                                       width: 65%;
+                                       padding: 2px 5px;
+                                       border: 1px solid #bfbfbf;
+                                    }
+                                 }
+                                 .but {
+                                    display: block;
+                                    margin: auto;
+                                    margin-top: 40px;
+                                    width: 100px;
+                                    border: none;
+                                    background: @bj;
+                                    color: #fff;
+                                    font-size: 16px;
                                  }
                               }
                            }
-                           textarea {
-                              width: 85%;
-                              padding: 5px 10px;
-                              border: 1px solid #ddd;
-                              background: @hui;
+                        }
+                     }
+
+                     //查询结果
+                     div.chax-sec {
+                        padding: 10px;
+                        > p {
+                           font-size: 16px;
+                           span.s1 {
+                              font-weight: bold;
+                              color: @bj;
                            }
-                           p.p2 {
+                           span.s2 {
                               color: red;
                            }
                         }
-                        div.d2 {
-                           width: 85%;
-                           text-align: center;
-                           input {
-                              width: 80px;
-                              font-size: 16px;
-                              color: #fff;
-                              background: @bj;
-                              border: none;
-                              margin: 10px;
-                              &:hover {
-                                 background: @bj*1.2;
+                        table {
+                           margin-top: 20px;
+                           thead {
+                              tr {
+                                 th {
+                                    border-bottom-color: @bj;
+                                    background: #eef4fa;
+                                    color: @bj;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                 }
+                              }
+                           }
+                           tbody {
+                              tr {
+                                 td {
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    a {
+                                       display: block;
+                                       text-align: left;
+                                    }
+                                 }
                               }
                            }
                         }
                      }
                   }
+               }
+            }
 
-                  //   我要申诉
-                  div.pub-rt-s {
-                     div.chax-sec {
-                        padding: 50px;
-                        div.row {
-                           > div {
-                              padding: 15px 0;
-                              padding-left: 6%;
-                              &:last-child {
-                                 border-left: 1px solid @bj;
-                              }
-                              .in {
-                                 border: 1px solid #ddd;
-                                 border-radius: 25px;
-                                 height: 30px;
-                                 line-height: 28px;
-                                 padding: 2px 15px;
-                                 background: @hui;
-                                 &.in1 {
-                                    width: 85%;
-                                 }
-                              }
-                              div.d1 {
-                                 margin-bottom: 15px;
-                              }
-                              div.d2 {
-                                 width: 85%;
-                                 text-align: center;
-                                 margin-top: 30px;
-                                 input {
-                                    width: 80px;
-                                    font-size: 16px;
-                                    background: @bj;
-                                    color: #fff;
-                                    border: none;
-                                 }
-                              }
-                           }
-                        }
+            //   申诉/投诉
+            div.chas-sec {
+               margin: auto;
+               width: 565px;
+               height: 901px;
+               background-image: url("https://img.sandbox.qixinyun.com/pxiang-chax-bj.png");
+               padding: 20px;
+               margin-top: 15px;
+               div.chas-top {
+                  text-align: center;
+                  font-size: 18px;
+                  font-weight: bold;
+                  color: @bj;
+                  letter-spacing: 1px;
+                  margin-bottom: 20px;
+                  span {
+                     font-size: 30px;
+                     vertical-align: middle;
+                     margin-right: 5px;
+                  }
+               }
+               div.d1 {
+                  margin-bottom: 16px;
+                  > * {
+                     _display: inline;
+                     display: inline-block;
+                     vertical-align: top;
+                  }
+                  span.tit {
+                     width: 115px;
+                     text-align: right;
+                  }
+                  span.xing {
+                     color: red;
+                  }
+                  span.sh {
+                     color: #999;
+                  }
+                  .in {
+                     border: 1px solid #d0d2d5;
+                     padding: 2px 5px;
+                     &.in1 {
+                        width: 260px;
+                     }
+                     &.in2 {
+                        width: 120px;
+                     }
+                     &.in3 {
+                        width: 200px;
+                     }
+                     &.in4 {
+                        width: 330px;
+                     }
+                  }
+                  input.in {
+                     height: 28px;
+                  }
+                  img {
+                     height: 28px;
+                     border: 1px solid #d0d2d5;
+                  }
+               }
+               div.d2 {
+                  text-align: center;
+                  padding-top: 10px;
+                  input {
+                     -webkit-appearance: none;
+                     border: none;
+                     height: 30px;
+                     width: 80px;
+                     font-size: 16px;
+                     background: none;
+                     &.int-1 {
+                        background-image: url("https://img.sandbox.qixinyun.com/pxiang-login-ico-01.png");
+                        background-position: center;
+                        background-size: cover;
+                        color: #fff;
+                     }
+                     &.in2 {
+                        color: @bj;
                      }
                   }
                }
@@ -623,16 +652,10 @@ section {
                      div.pub-rt-s {
                         div.hdjl-sec {
                            div.hd-top {
-                              padding: 20px;
+                              padding: 20px 50px;
                               ul {
-                                 margin-left: -20px;
-                                 margin-right: -20px;
-                                 margin-bottom: 10px;
-                                 li {
-                                    width: 20%;
-                                    text-align: center;
-                                    font-weight: bold;
-                                 }
+                                 margin-left: -50px;
+                                 margin-right: -50px;
                               }
                            }
                         }
@@ -674,50 +697,43 @@ section {
             div.public-list {
                div.row {
                   div.pub-rt {
-                     //   我要查询
+                     //   互动交流
                      div.pub-rt-s {
-                        div.chax-sec {
-                           div.d1 {
-                              .in {
-                                 &.in1 {
-                                    width: 100%;
-                                    max-width: 550px;
-                                 }
+                        div.hdjl-sec {
+                           div.hd-top {
+                              padding: 20px;
+                              ul {
+                                 margin-left: -20px;
+                                 margin-right: -20px;
                               }
-                              div.d1-2 {
-                                 select {
-                                    margin-top: 5px;
-                                 }
-                              }
-                              textarea {
-                                 width: 100%;
-                              }
-                           }
-                           div.d2 {
-                              width: 100%;
                            }
                         }
                      }
-                     //   我要申诉
-                     div.pub-rt-s {
-                        div.chax-sec {
-                           padding: 15px;
-                           div.row {
-                              > div {
-                                 padding-left: 0;
-                                 &:last-child {
-                                    border-left: none;
-                                 }
-                                 .in {
-                                    &.in1 {
-                                       width: 100%;
-                                    }
-                                 }
-                                 div.d2 {
-                                    width: 100%;
-                                 }
-                              }
-                           }
+                  }
+               }
+
+               //   申诉/投诉
+               div.chas-sec {
+                  width: 100%;
+                  height: auto;
+                  background-image: none;
+                  padding: 0;
+                  div.d1 {
+                     margin-bottom: 10px;
+                     span.tit {
+                        width: 100%;
+                        text-align: left;
+                        margin-bottom: 5px;
+                        &.t2 {
+                           width: auto;
+                        }
+                     }
+                     .in {
+                        &.in1 {
+                           width: 75%;
+                        }
+                        &.in4 {
+                           width: 95%;
                         }
                      }
                   }

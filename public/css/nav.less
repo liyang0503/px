@@ -95,14 +95,24 @@ div.page {
 //   header
 header {
    div.head-pc {
-      padding: 5px 0;
+      padding: 12px 0;
    }
    ul.h_top {
       float: right;
+      width: 157px;
       li {
-         margin: 5px 10px;
          a {
             font-size: 12px;
+         }
+         &.li2 {
+            padding: 0 8px;
+            a {
+               font-size: 16px;
+               color: #666;
+               &:hover {
+                  color: @bj;
+               }
+            }
          }
       }
    }
@@ -354,28 +364,29 @@ div.search-box {
 
    //   nav
    nav {
-      height: 45px;
+      height: 50px;
       background-image: url("https://img.sandbox.qixinyun.com/pxiang-nav-bj.jpg");
       background-size: cover;
       div.container {
          ul {
-            height: 45px;
-            line-height: 45px;
-            padding-left: 251px;
+            height: 50px;
+            line-height: 50px;
+            padding: 0 4px;
             li {
                a {
-                  font-size: 12px;
-                  padding: 0 10px;
+                  font-size: 15px;
+                  padding: 0 13px;
                   display: block;
                   text-align: center;
                   color: #fff;
                   font-weight: bold;
+                  letter-spacing: 1px;
                }
                &.active {
                   background: @bj*0.6;
                }
                &:hover {
-                  background: @bj*1.8;
+                  background: @bj;
                }
             }
          }
@@ -388,13 +399,6 @@ div.search-box {
    header {
       box-shadow: 0 0 20px #888;
       margin-bottom: 10px;
-      .head-pc {
-         position: relative;
-         a.logo {
-            position: absolute;
-            top: 16px;
-         }
-      }
    }
 
    //首页banner
@@ -708,16 +712,6 @@ div.search-box {
 }
 
 @media screen and (max-width: 993px) {
-   //   header
-   header {
-      padding: 10px 0 0;
-      a.logo {
-         img {
-            width: 120px;
-         }
-      }
-   }
-
    //   nav
    nav {
       background: #eee;
@@ -879,17 +873,44 @@ div.search-box {
 }
 
 @media screen and (min-width: 768px) and (max-width: 993px) {
-   //   header
-   header {
-      padding: 0;
-   }
-
    //   nav
    nav {
       div.container {
          ul {
             height: 45px;
             line-height: 45px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 767px) {
+   //   header
+   header {
+      .head-sj {
+         padding: 5px 0;
+         a.logo {
+            img {
+               width: 160px;
+            }
+         }
+         ul.h_top {
+            float: right;
+            width: 75px;
+            li {
+               a {
+                  font-size: 12px;
+                  img {
+                     width: 70px;
+                  }
+               }
+               &.li2 {
+                  padding: 0 4px;
+                  a {
+                     font-size: 12px;
+                  }
+               }
+            }
          }
       }
    }

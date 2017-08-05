@@ -72,6 +72,12 @@ $(function () {
       $(this).next('.ls').slideToggle('fast');
    });
 
+//   左右高度相等
+   if (w > 993) {
+      var rth = $('.pub-rt').outerHeight();
+      $('.pub-le').css({height: rth});
+   }
+
 });
 
 //tab切换
@@ -99,6 +105,21 @@ function tab2(cli, sec) {
       }, function () {
          $(sec).removeClass('active');
          $($(sec)[i]).addClass('active');
+      });
+   });
+
+   $(cli).click(function () {
+      $(cli).each(function (index) {
+         if ($(this).hasClass('active')) {
+            i = index;
+         }
+         $(this).hover(function () {
+            $(sec).removeClass('active');
+            $($(sec)[index]).addClass('active');
+         }, function () {
+            $(sec).removeClass('active');
+            $($(sec)[i]).addClass('active');
+         });
       });
    });
 }

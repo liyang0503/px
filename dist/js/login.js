@@ -10,3 +10,8 @@ $(function () {
       $('section').css({paddingTop: (hs - hl) / 2.5});
    }
 });
+
+function back2() {
+   layer.msg('功能正在开发中');
+   return false;
+}

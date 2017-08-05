@@ -8,6 +8,7 @@ section div.container div.news div.news-sec div.news-le div.news-top {
   margin-bottom: 15px;
   border-bottom: 1px dashed #ccc;
   padding-bottom: 5px;
+  position: relative;
 }
 section div.container div.news div.news-sec div.news-le div.news-top p.title {
   font-weight: bold;
@@ -19,7 +20,13 @@ section div.container div.news div.news-sec div.news-le div.news-top p.p2 {
   color: #888;
 }
 section div.container div.news div.news-sec div.news-le div.news-top p.p2 span {
-  float: right;
+  display: inline-block;
+  margin-left: 20px;
+}
+section div.container div.news div.news-sec div.news-le div.news-top div.bshare-custom {
+  position: absolute;
+  right: 0;
+  bottom: 9px;
 }
 section div.container div.news div.news-sec div.news-le div.news-s img {
   display: block;

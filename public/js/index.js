@@ -32,7 +32,18 @@ $(function () {
    tab('.rt-li2', '.rt-ul2');
    tab('.list1-li', '.list1-sec');
    tab('.list2-li', '.list2-sec');
+   tab('.list3-li', '.list3-sec');
+   tab('.list4-li', '.list4-sec');
    tab('.tit-li', '.ul2-sec');
+
+//   鼠标悬停预览切换
+   tab2('.rt-li', '.rt-ul');
+   tab2('.rt-li2', '.rt-ul2');
+   tab2('.list1-li', '.list1-sec');
+   tab2('.list2-li', '.list2-sec');
+   tab2('.list3-li', '.list3-sec');
+   tab2('.list4-li', '.list4-sec');
+   tab2('.tit-li', '.ul2-sec');
 
 //   右侧切换部分的宽度（手机）
    if (w < 767) {

@@ -14,6 +14,7 @@
    <link rel="stylesheet" href="css/nav.css">
    <link rel="stylesheet" href="css/footer.css">
    <!--本页主体css-->
+   <link rel="stylesheet" href="css/select2.css">
    <link rel="stylesheet" href="css/public-list.css">
 
    <!--js库文件-->
@@ -117,24 +118,11 @@
                   <div class="d1">
                      <span class="tit">申请人所在地区：</span>
                      <div class="d1-2">
-                        <select class="in" name="" id="">
-                           <option value="">江西省</option>
+                        <select id="loc_province">
                         </select>
-                        <span>-</span>
-                        <select class="in" name="" id="">
-                           <option value="">萍乡市</option>
+                        <select id="loc_city" style="margin-left: 5px">
                         </select>
-                        <span>-</span>
-                        <select class="in" name="" id="">
-                           <option value="">市辖区</option>
-                           <option value="">安源区</option>
-                           <option value="">湘东区</option>
-                           <option value="">莲花县</option>
-                           <option value="">琴亭镇</option>
-                           <option value="">上栗县</option>
-                           <option value="">上栗镇</option>
-                           <option value="">芦溪县</option>
-                           <option value="">芦溪镇</option>
+                        <select id="loc_town" style="margin-left: 5px">
                         </select>
                      </div>
                   </div>
@@ -199,6 +187,10 @@
 
 
 <!--本页js-->
+<script src="js/area.js"></script>
+<script src="js/location.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/select2_locale_zh-CN.js"></script>
 <script>
    function back() {
       layer.open({

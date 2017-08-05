@@ -86,6 +86,23 @@ function tab(cli, sec) {
    });
 }
 
+//鼠标悬停预览切换
+function tab2(cli, sec) {
+   var i;
+   $(cli).each(function (index) {
+      if ($(this).hasClass('active')) {
+         i = index;
+      }
+      $(this).hover(function () {
+         $(sec).removeClass('active');
+         $($(sec)[index]).addClass('active');
+      }, function () {
+         $(sec).removeClass('active');
+         $($(sec)[i]).addClass('active');
+      });
+   });
+}
+
 //左对齐
 function mar(ma, num) {
    $(ma).parent().each(function () {

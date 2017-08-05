@@ -467,6 +467,9 @@ section div.container div.public div.public-list div.chas-sec div.d1 img {
   height: 28px;
   border: 1px solid #d0d2d5;
 }
+section div.container div.public div.public-list div.chas-sec div.d1 div.d1-2 .select2-container {
+  width: 120px;
+}
 section div.container div.public div.public-list div.chas-sec div.d2 {
   text-align: center;
   padding-top: 10px;
@@ -608,5 +611,8 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   }
   section div.container div.public div.public-list div.chas-sec div.d1 .in.in4 {
     width: 95%;
+  }
+  section div.container div.public div.public-list div.chas-sec div.d1 div.d1-2 .select2-container {
+    width: 90px;
   }
 }

@@ -165,6 +165,17 @@
 
 
 <!--本页js-->
-
+<script>
+   $(function () {
+      $(window).scroll(function () {
+         var scro = $(this).scrollTop();
+         if (scro >= 223) {
+            $('.news-rt').css({position: 'fixed', top: 0, right: (w - 1000) / 2 - 2, width: '333.33px'});
+         } else {
+            $('.news-rt').css({position: 'relative', top: 'initial', right: 'initial', width: '333.33px'});
+         }
+      });
+   });
+</script>
 </body>
 </html>

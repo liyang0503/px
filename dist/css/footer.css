@@ -22,6 +22,7 @@ footer div.foot-top div.container div.fot-ul2 div.ul2-sec {
   padding: 15px;
   border: 1px solid #2f88a6;
   display: none;
+  height: 148px;
 }
 footer div.foot-top div.container div.fot-ul2 div.ul2-sec.active {
   display: block;

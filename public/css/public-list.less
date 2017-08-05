@@ -468,6 +468,40 @@ section {
                            }
                         }
                      }
+
+                     //查询详情
+                     div.chax-info {
+                        padding: 10px;
+                        > p {
+                           font-size: 16px;
+                           span.s1 {
+                              font-weight: bold;
+                              color: @bj;
+                           }
+                           span.s2 {
+                              color: red;
+                           }
+                        }
+                        div.cha-in {
+                           margin-top: 15px;
+                           border-top: 4px solid @bj;
+                           table {
+                              tbody {
+                                 tr {
+                                    th, td {
+                                       border-top: none;
+                                       border-bottom: 1px solid #e4f4f5;
+                                       padding: 8px 12px;
+                                       vertical-align: middle;
+                                    }
+                                    th {
+                                       background: #f1f9fa;
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
                   }
                }
             }
@@ -711,6 +745,29 @@ section {
                               ul {
                                  margin-left: -20px;
                                  margin-right: -20px;
+                              }
+                           }
+                        }
+
+                        //查询结果
+                        div.chax-sec {
+                           padding: 0;
+                        }
+
+                        //查询详情
+                        div.chax-info {
+                           padding: 0;
+                           div.cha-in {
+                              table {
+                                 tbody {
+                                    tr {
+                                       th {
+                                          width: 90px;
+                                          padding: 8px;
+                                          text-align: center;
+                                       }
+                                    }
+                                 }
                               }
                            }
                         }

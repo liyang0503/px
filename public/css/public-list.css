@@ -405,6 +405,33 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   display: block;
   text-align: left;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info {
+  padding: 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info > p {
+  font-size: 16px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info > p span.s1 {
+  font-weight: bold;
+  color: #2f88a6;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info > p span.s2 {
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in {
+  margin-top: 15px;
+  border-top: 4px solid #2f88a6;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in table tbody tr th,
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in table tbody tr td {
+  border-top: none;
+  border-bottom: 1px solid #e4f4f5;
+  padding: 8px 12px;
+  vertical-align: middle;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in table tbody tr th {
+  background: #f1f9fa;
+}
 section div.container div.public div.public-list div.chas-sec {
   margin: auto;
   width: 565px;
@@ -588,6 +615,17 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top ul {
     margin-left: -20px;
     margin-right: -20px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-sec {
+    padding: 0;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info {
+    padding: 0;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in table tbody tr th {
+    width: 90px;
+    padding: 8px;
+    text-align: center;
   }
   section div.container div.public div.public-list div.chas-sec {
     width: 100%;

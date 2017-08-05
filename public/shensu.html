@@ -202,6 +202,11 @@
          shadeClose: true, //开启遮罩关闭
          content: '<div style="width: 260px;padding: 12px;"><p>用于查询的编号为（请牢记）：</p><p style="font-size: 26px;font-style: italic;color: red;">939696894939</p></div>'
       });
+
+      $('.layui-layer-shade').click(function () {
+         window.location.reload(true);
+      });
+
       return false;
    }
 </script>

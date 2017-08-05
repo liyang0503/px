@@ -1,45 +1,107 @@
-div.info {
-   div.news-top {
-      margin-bottom: 15px;
-      border-bottom: 1px dashed #ccc;
-      padding-bottom: 5px;
-      p.title {
-         font-weight: bold;
-         font-size: 24px;
-         text-align: center;
-         margin-bottom: 5px;
+@import (reference) "nav.less";
+
+@media screen and (min-width: 320px) {
+   //单页
+   div.info {
+      div.news-top {
+         margin-bottom: 15px;
+         border-bottom: 1px dashed #ccc;
+         padding-bottom: 5px;
+         p.title {
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 5px;
+         }
+         p.p2 {
+            color: #888;
+            span {
+               float: right;
+            }
+         }
       }
-      p.p2 {
-         color: #888;
-         span {
-            float: right;
+      div.news-s {
+         img {
+            display: block;
+            max-width: 100%;
+            margin: 10px auto;
          }
       }
    }
-   div.news-s {
-      img {
-         display: block;
-         max-width: 100%;
-         margin: 10px auto;
+
+   //   红黑榜详情页
+   div.red-black {
+      div.red-h-s {
+         padding: 25px 0;
+         div.red-top {
+            text-align: center;
+            margin-bottom: 15px;
+            p.tit {
+               font-size: 18px;
+               font-weight: bold;
+               color: @bj;
+            }
+         }
+         p.p-sx {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+         }
+         div.red-sx {
+            border-top: 4px solid @bj;
+            margin-bottom: 50px;
+            table {
+               tbody {
+                  tr {
+                     th, td {
+                        border-top: none;
+                        border-bottom: 1px solid #cae0f9;
+                        padding: 8px 12px;
+                        vertical-align: middle;
+                     }
+                     th {
+                        background: #e7eff8;
+                        width: 160px;
+                     }
+                  }
+               }
+            }
+         }
+         > a {
+            display: block;
+            margin: auto;
+            width: 120px;
+            height: 42px;
+            line-height: 42px;
+            border-radius: 6px;
+            background-image: url("https://img.sandbox.qixinyun.com/pxiang-nav-bj.jpg");
+            background-position: center;
+            background-size: 200%;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+         }
       }
    }
-   div.red-s {
-      margin-bottom: 20px;
-      p.tit {
-         font-size: 16px;
-         font-weight: bold;
-         margin-bottom: 10px;
-      }
-      table {
-         tr {
-            th, td {
-               border: 1px solid #ccc;
-               padding: 5px 10px;
-               background: #f8f8f8;
-            }
-            th {
-               width: 160px;
-               background: #ddd;
+}
+
+@media screen and (max-width: 767px) {
+   //   红黑榜详情页
+   div.red-black {
+      div.red-h-s {
+         div.red-sx {
+            margin-bottom: 40px;
+            table {
+               tbody {
+                  tr {
+                     th, td {
+                        padding: 8px;
+                     }
+                     th {
+                        width: 105px;
+                     }
+                  }
+               }
             }
          }
       }

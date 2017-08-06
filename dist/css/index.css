@@ -220,6 +220,9 @@ section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul 
 section div.container div.index div.index-rt div.rt-new div.rt-new-top > div ul li.rt-li2:hover {
   color: #e84b42;
 }
+section div.container div.index div.index-rt div.rt-new ul.rt-ul2 {
+  height: 420px;
+}
 @media screen and (min-width: 1000px) {
   ul.new-1 {
     min-height: 210px;

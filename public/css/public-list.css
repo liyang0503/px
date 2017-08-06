@@ -169,7 +169,10 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   vertical-align: middle;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s1 {
-  width: 150px;
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s2 {
   width: 60%;

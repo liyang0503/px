@@ -33,6 +33,9 @@ section div.container div.news div.news-sec div.news-le div.news-s img {
   max-width: 100%;
   margin: 10px auto;
 }
+section div.container div.news div.news-sec div.news-le div.news-s p {
+  background-color: transparent !important;
+}
 section div.container div.news div.news-sec div.news-le a.ac {
   display: block;
   width: 100px;

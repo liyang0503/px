@@ -275,7 +275,7 @@
       $('.rh-search').each(function () {
          $(this).show();
          var span = $(this).find('span.s2').text();
-         if (span.indexOf(texts) <= 0) {
+         if (span.indexOf(texts) < 0) {
             $(this).hide();
          }
       });

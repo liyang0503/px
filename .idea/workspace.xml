@@ -4,12 +4,11 @@
     <list default="true" id="2be6fef9-f483-440c-a410-b3a4d92f7075" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/public-list.css" afterPath="$PROJECT_DIR$/dist/css/public-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/public-list.html" afterPath="$PROJECT_DIR$/dist/public-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/index.js" afterPath="$PROJECT_DIR$/dist/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-black-h.html" afterPath="$PROJECT_DIR$/dist/red-black-h.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-black.html" afterPath="$PROJECT_DIR$/dist/red-black.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.css" afterPath="$PROJECT_DIR$/public/css/public-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.less" afterPath="$PROJECT_DIR$/public/css/public-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public-list.html" afterPath="$PROJECT_DIR$/public/public-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/index.js" afterPath="$PROJECT_DIR$/public/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-black-h.html" afterPath="$PROJECT_DIR$/public/red-black-h.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-black.html" afterPath="$PROJECT_DIR$/public/red-black.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,121 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/nav.less">
+      <file leaf-file-name="red-black.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/red-black.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1275">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="278" column="27" lean-forward="false" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/index.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
-              <folding>
-                <element signature="e#45#607#0" expanded="false" />
-                <element signature="e#53#426#0" expanded="false" />
-                <element signature="e#88#421#0" expanded="false" />
-                <element signature="e#220#413#0" expanded="false" />
-                <element signature="e#438#515#0" expanded="false" />
-                <element signature="e#476#510#0" expanded="false" />
-                <element signature="e#528#605#0" expanded="false" />
-                <element signature="e#566#600#0" expanded="false" />
-                <element signature="e#617#1608#0" expanded="false" />
-                <element signature="e#625#1606#0" expanded="false" />
-                <element signature="e#635#1601#0" expanded="false" />
-                <element signature="e#710#850#0" expanded="false" />
-                <element signature="e#868#998#0" expanded="false" />
-                <element signature="e#1016#1460#0" expanded="false" />
-                <element signature="e#1398#1449#0" expanded="false" />
-                <element signature="e#1479#1593#0" expanded="false" />
-                <element signature="e#1633#1695#0" expanded="false" />
-                <element signature="e#1665#1693#0" expanded="false" />
-                <element signature="e#1705#6837#0" expanded="false" />
-                <element signature="e#1724#6835#0" expanded="false" />
-                <element signature="e#1742#6830#0" expanded="false" />
-                <element signature="e#1784#1852#0" expanded="false" />
-                <element signature="e#1875#2314#0" expanded="false" />
-                <element signature="e#1892#2303#0" expanded="false" />
-                <element signature="e#1945#2289#0" expanded="false" />
-                <element signature="e#2001#2272#0" expanded="false" />
-                <element signature="e#2337#5178#0" expanded="false" />
-                <element signature="e#2361#5023#0" expanded="false" />
-                <element signature="e#2422#5009#0" expanded="false" />
-                <element signature="e#2493#4222#0" expanded="false" />
-                <element signature="e#2604#2748#0" expanded="false" />
-                <element signature="e#2773#3545#0" expanded="false" />
-                <element signature="e#2882#3522#0" expanded="false" />
-                <element signature="e#2913#3150#0" expanded="false" />
-                <element signature="e#3043#3121#0" expanded="false" />
-                <element signature="e#3180#3496#0" expanded="false" />
-                <element signature="e#3571#4202#0" expanded="false" />
-                <element signature="e#3640#3810#0" expanded="false" />
-                <element signature="e#3837#4080#0" expanded="false" />
-                <element signature="e#4107#4179#0" expanded="false" />
-                <element signature="e#4253#4992#0" expanded="false" />
-                <element signature="e#4286#4792#0" expanded="false" />
-                <element signature="e#4361#4436#0" expanded="false" />
-                <element signature="e#4476#4769#0" expanded="false" />
-                <element signature="e#4507#4743#0" expanded="false" />
-                <element signature="e#4634#4714#0" expanded="false" />
-                <element signature="e#4824#4972#0" expanded="false" />
-                <element signature="e#5043#5167#0" expanded="false" />
-                <element signature="e#5100#5153#0" expanded="false" />
-                <element signature="e#5201#6822#0" expanded="false" />
-                <element signature="e#5253#5452#0" expanded="false" />
-                <element signature="e#5308#5438#0" expanded="false" />
-                <element signature="e#5366#5421#0" expanded="false" />
-                <element signature="e#5476#6811#0" expanded="false" />
-                <element signature="e#5544#6720#0" expanded="false" />
-                <element signature="e#5610#5880#0" expanded="false" />
-                <element signature="e#5791#5860#0" expanded="false" />
-                <element signature="e#5905#6703#0" expanded="false" />
-                <element signature="e#6059#6130#0" expanded="false" />
-                <element signature="e#6155#6683#0" expanded="false" />
-                <element signature="e#6184#6660#0" expanded="false" />
-                <element signature="e#6360#6436#0" expanded="false" />
-                <element signature="e#6473#6634#0" expanded="false" />
-                <element signature="e#6523#6605#0" expanded="false" />
-                <element signature="e#6746#6797#0" expanded="false" />
-                <element signature="e#6878#7101#0" expanded="false" />
-                <element signature="e#6892#6923#0" expanded="false" />
-                <element signature="e#6937#6968#0" expanded="false" />
-                <element signature="e#6982#7013#0" expanded="false" />
-                <element signature="e#7027#7058#0" expanded="false" />
-                <element signature="e#7072#7099#0" expanded="false" />
-                <element signature="e#7141#8908#0" expanded="false" />
-                <element signature="e#7154#8906#0" expanded="false" />
-                <element signature="e#7176#8901#0" expanded="false" />
-                <element signature="e#7197#8893#0" expanded="false" />
-                <element signature="e#7252#7571#0" expanded="false" />
-                <element signature="e#7272#7327#0" expanded="false" />
-                <element signature="e#7350#7557#0" expanded="false" />
-                <element signature="e#7373#7540#0" expanded="false" />
-                <element signature="e#7398#7520#0" expanded="false" />
-                <element signature="e#7433#7497#0" expanded="false" />
-                <element signature="e#7597#7686#0" expanded="false" />
-                <element signature="e#7617#7672#0" expanded="false" />
-                <element signature="e#7712#8401#0" expanded="false" />
-                <element signature="e#7739#8387#0" expanded="false" />
-                <element signature="e#7803#8370#0" expanded="false" />
-                <element signature="e#7919#8350#0" expanded="false" />
-                <element signature="e#7955#8327#0" expanded="false" />
-                <element signature="e#7999#8301#0" expanded="false" />
-                <element signature="e#8078#8156#0" expanded="false" />
-                <element signature="e#8191#8272#0" expanded="false" />
-                <element signature="e#8427#8882#0" expanded="false" />
-                <element signature="e#8487#8868#0" expanded="false" />
-                <element signature="e#8520#8580#0" expanded="false" />
-                <element signature="e#8614#8851#0" expanded="false" />
-                <element signature="e#8643#8831#0" expanded="false" />
-                <element signature="e#8672#8808#0" expanded="false" />
-                <element signature="e#8704#8782#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,7 +49,17 @@
         <entry file="file://$PROJECT_DIR$/VERSION">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="red-black-h.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="199" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -241,7 +141,6 @@
         <option value="$PROJECT_DIR$/public/zhuce.html" />
         <option value="$PROJECT_DIR$/public/chaxun-x.html" />
         <option value="$PROJECT_DIR$/public/chaxun.html" />
-        <option value="$PROJECT_DIR$/public/js/index.js" />
         <option value="E:/李阳/插件/jQuery 特效/三级联动城市/jquery-Select/index.html" />
         <option value="$PROJECT_DIR$/public/chaxun-info.html" />
         <option value="$PROJECT_DIR$/public/css/footer.less" />
@@ -265,7 +164,6 @@
         <option value="$PROJECT_DIR$/public/red-h-1.html" />
         <option value="$PROJECT_DIR$/public/red-h-2.html" />
         <option value="$PROJECT_DIR$/public/js/login.js" />
-        <option value="$PROJECT_DIR$/public/red-black-h.html" />
         <option value="$PROJECT_DIR$/public/css/news.less" />
         <option value="$PROJECT_DIR$/public/new.html" />
         <option value="$PROJECT_DIR$/public/js/global.js" />
@@ -276,6 +174,8 @@
         <option value="$PROJECT_DIR$/public/hdJL-yy.html" />
         <option value="$PROJECT_DIR$/public/public-list.html" />
         <option value="$PROJECT_DIR$/public/css/public-list.less" />
+        <option value="$PROJECT_DIR$/public/js/index.js" />
+        <option value="$PROJECT_DIR$/public/red-black-h.html" />
         <option value="$PROJECT_DIR$/public/red-black.html" />
         <option value="$PROJECT_DIR$/VERSION" />
       </list>
@@ -487,12 +387,12 @@
       <workItem from="1501846574915" duration="635000" />
       <workItem from="1501897403659" duration="44011000" />
       <workItem from="1501985226941" duration="7954000" />
-      <workItem from="1502006475422" duration="132000" />
+      <workItem from="1502006475422" duration="3350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339914000" />
+    <option name="totallyTimeSpent" value="343132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,20 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/shensu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="206" column="38" lean-forward="true" selection-start-line="206" selection-start-column="38" selection-end-line="206" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/info.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -703,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="116" column="66" lean-forward="true" selection-start-line="116" selection-start-column="66" selection-end-line="116" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/news.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -728,6 +607,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="89" column="45" lean-forward="false" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding>
+            <element signature="e#130#509#0" expanded="false" />
+            <element signature="e#577#669#0" expanded="false" />
+            <element signature="e#699#1357#0" expanded="false" />
+            <element signature="e#1401#1448#0" expanded="false" />
+            <element signature="e#1489#1611#0" expanded="false" />
+            <element signature="e#1643#1724#0" expanded="false" />
+            <element signature="e#1773#1826#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,22 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="259" column="21" lean-forward="false" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/nav.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -818,10 +690,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
             <element signature="e#45#607#0" expanded="false" />
             <element signature="e#53#426#0" expanded="false" />
@@ -925,10 +805,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/nav.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/red-black.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="199" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="278" column="27" lean-forward="false" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VERSION">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>

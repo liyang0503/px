@@ -82,8 +82,8 @@
             <a href="red-black.html" class="a1">红黑榜</a>
             <span class="a1">信用红榜</span>
             <div class="search-box">
-               <form action="">
-                  <input type="text" placeholder="请输入搜索内容">
+               <form action="" onsubmit="return search();">
+                  <input type="text" id="text" placeholder="请输入搜索内容">
                   <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
                </form>
             </div>
@@ -97,8 +97,8 @@
             </ul>
          </div>
          <div class="search-box visible-xs visible-sm">
-            <form action="">
-               <input type="text" placeholder="请输入搜索内容">
+            <form action="" onsubmit="return search();">
+               <input type="text" id="text" placeholder="请输入搜索内容">
                <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
             </form>
          </div>
@@ -270,9 +270,17 @@
 
 <!--本页js-->
 <script>
-   $(function () {
-
-   });
+   function search() {
+      var texts = $('#text').val();
+      $('.rh-search').each(function () {
+         $(this).show();
+         var span = $(this).find('span.s2').text();
+         if (span.indexOf(texts) <= 0) {
+            $(this).hide();
+         }
+      });
+      return false;
+   }
 </script>
 </body>
 </html>

@@ -18,8 +18,8 @@ section {
                         width: 100%;
                      }
                   }
-                  ul {
-                     li {
+                  > ul {
+                     > li {
                         position: relative;
                         z-index: 1;
                         a {
@@ -46,7 +46,7 @@ section {
                               margin-right: 10px;
                            }
                         }
-                        img {
+                        > img {
                            display: none;
                            position: absolute;
                            top: 0;
@@ -54,27 +54,39 @@ section {
                            z-index: -1;
                         }
                         &.active {
-                           a {
+                           > a {
                               color: #fff;
                               border-color: transparent;
                               s, i {
                                  background: #fff;
                               }
                            }
-                           img {
+                           > img {
                               display: block;
                            }
                         }
                         &:hover {
-                           a {
+                           > a {
                               color: #fff;
                               border-color: transparent;
                               s, i {
                                  background: #fff;
                               }
                            }
-                           img {
+                           > img {
                               display: block;
+                           }
+                        }
+                        ul.zuzhi-list {
+                           li {
+                              padding: 0 1px;
+                              a {
+                                 padding-left: 35px;
+                                 background: #dfedf2;
+                                 s {
+                                    margin-right: 5px;
+                                 }
+                              }
                            }
                         }
                      }
@@ -185,8 +197,15 @@ section {
                                     overflow: hidden;
                                  }
                                  span.s2 {
-                                    width: 60%;
+                                    width: 35%;
                                     white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    overflow: hidden;
+                                 }
+                                 span.s4 {
+                                    width: 22%;
+                                    white-space: nowrap;
+                                    text-align: center;
                                     text-overflow: ellipsis;
                                     overflow: hidden;
                                  }
@@ -214,8 +233,38 @@ section {
                                  }
                               }
                            }
+                           &.red-info {
+                              li {
+                                 &.th {
+                                    border-bottom: 3px solid @bj;
+                                    padding-bottom: 0;
+                                    a {
+                                       span.s2 {
+                                          text-align: center;
+                                          margin-left: 22px;
+                                       }
+                                    }
+                                 }
+                                 a {
+                                    span.s2 {
+                                       width: 55%;
+                                    }
+                                    span.s3 {
+                                       width: 75px;
+                                       text-align: center;
+                                    }
+                                    span.icon-red {
+                                       font-size: 18px;
+                                       color: red;
+                                    }
+                                    span.icon-black {
+                                       font-size: 18px;
+                                       color: #000;
+                                    }
+                                 }
+                              }
+                           }
                         }
-
                      }
                   }
 
@@ -716,6 +765,15 @@ section {
                            padding: 3px 0;
                            p {
                               margin-bottom: 5px;
+                              position: relative;
+                              padding-right: 35%;
+                              white-space: nowrap;
+                              text-overflow: ellipsis;
+                              overflow: hidden;
+                              span {
+                                 position: absolute;
+                                 right: 0;
+                              }
                            }
                            div {
                               color: #999;

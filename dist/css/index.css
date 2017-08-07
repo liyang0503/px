@@ -67,6 +67,12 @@ ul.time li a img.img2 {
   top: 10px;
   width: 12px;
 }
+ul.time.black li a span.s2 {
+  background: #444;
+}
+ul.time.black li a span.s2.top {
+  background: #000;
+}
 .list3-sec,
 .list4-sec {
   display: none;

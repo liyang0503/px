@@ -373,9 +373,6 @@ div.search-box input {
   nav div.container ul li:hover {
     background: #2f88a6;
   }
-  nav.nav-info {
-    background: #2f88a6;
-  }
   header {
     box-shadow: 0 0 20px #888;
     margin-bottom: 10px;
@@ -567,6 +564,10 @@ div.search-box input {
     background: #2f88a6;
     color: #fff;
   }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub1 div.sub1-sec ul.new-list {
+    height: 120px;
+    overflow: hidden;
+  }
   div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub1 div.sub1-sec ul.new-list li {
     padding: 0 10px;
   }
@@ -632,6 +633,7 @@ div.search-box input {
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-rt {
     width: 764px;
+    padding-top: 2px;
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-rt ul.carousel-indicators {
     bottom: 5px;
@@ -649,7 +651,7 @@ div.search-box input {
     background: #2f88a6;
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-rt div.item a img {
-    height: 342px;
+    height: 338px;
   }
 }
 @media screen and (max-width: 993px) {

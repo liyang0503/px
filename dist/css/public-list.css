@@ -16,11 +16,11 @@ section div.container div.public div.public-list div.row div.pub-le div.pub-t im
   display: block;
   width: 100%;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li {
+section div.container div.public div.public-list div.row div.pub-le > ul > li {
   position: relative;
   z-index: 1;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li a {
+section div.container div.public div.public-list div.row div.pub-le > ul > li a {
   display: block;
   color: #2f88a6;
   height: 38px;
@@ -28,7 +28,7 @@ section div.container div.public div.public-list div.row div.pub-le ul li a {
   padding: 0 12px;
   border-bottom: 1px solid #dcdcdc;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li a s {
+section div.container div.public div.public-list div.row div.pub-le > ul > li a s {
   display: inline-block;
   vertical-align: middle;
   width: 5px;
@@ -36,7 +36,7 @@ section div.container div.public div.public-list div.row div.pub-le ul li a s {
   background: #2f88a6;
   border-radius: 50%;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li a i {
+section div.container div.public div.public-list div.row div.pub-le > ul > li a i {
   display: inline-block;
   vertical-align: middle;
   height: 1px;
@@ -44,34 +44,44 @@ section div.container div.public div.public-list div.row div.pub-le ul li a i {
   background: #2f88a6;
   margin-right: 10px;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li img {
+section div.container div.public div.public-list div.row div.pub-le > ul > li > img {
   display: none;
   position: absolute;
   top: 0;
   left: -7px;
   z-index: -1;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li.active a {
+section div.container div.public div.public-list div.row div.pub-le > ul > li.active > a {
   color: #fff;
   border-color: transparent;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li.active a s,
-section div.container div.public div.public-list div.row div.pub-le ul li.active a i {
+section div.container div.public div.public-list div.row div.pub-le > ul > li.active > a s,
+section div.container div.public div.public-list div.row div.pub-le > ul > li.active > a i {
   background: #fff;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li.active img {
+section div.container div.public div.public-list div.row div.pub-le > ul > li.active > img {
   display: block;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li:hover a {
+section div.container div.public div.public-list div.row div.pub-le > ul > li:hover > a {
   color: #fff;
   border-color: transparent;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li:hover a s,
-section div.container div.public div.public-list div.row div.pub-le ul li:hover a i {
+section div.container div.public div.public-list div.row div.pub-le > ul > li:hover > a s,
+section div.container div.public div.public-list div.row div.pub-le > ul > li:hover > a i {
   background: #fff;
 }
-section div.container div.public div.public-list div.row div.pub-le ul li:hover img {
+section div.container div.public div.public-list div.row div.pub-le > ul > li:hover > img {
   display: block;
+}
+section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li {
+  padding: 0 1px;
+}
+section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li a {
+  padding-left: 35px;
+  background: #dfedf2;
+}
+section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li a s {
+  margin-right: 5px;
 }
 section div.container div.public div.public-list div.row div.pub-rt {
   margin-left: 25px;
@@ -175,8 +185,15 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   overflow: hidden;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s2 {
-  width: 60%;
+  width: 35%;
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s4 {
+  width: 22%;
+  white-space: nowrap;
+  text-align: center;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -198,6 +215,29 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   font-size: 16px;
   font-weight: bold;
   color: #2f88a6;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li.th {
+  border-bottom: 3px solid #2f88a6;
+  padding-bottom: 0;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li.th a span.s2 {
+  text-align: center;
+  margin-left: 22px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.s2 {
+  width: 55%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.s3 {
+  width: 75px;
+  text-align: center;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.icon-red {
+  font-size: 18px;
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.icon-black {
+  font-size: 18px;
+  color: #000;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.record {
   padding: 5px 20px 20px;
@@ -603,6 +643,15 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   }
   section div.container div.public div.public-list div.pub-sj-list > ul li a p {
     margin-bottom: 5px;
+    position: relative;
+    padding-right: 35%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  section div.container div.public div.public-list div.pub-sj-list > ul li a p span {
+    position: absolute;
+    right: 0;
   }
   section div.container div.public div.public-list div.pub-sj-list > ul li a div {
     color: #999;

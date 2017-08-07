@@ -231,19 +231,24 @@ section div.container div.index div.index-rt div.rt-new ul.rt-ul2 {
 }
 @media screen and (min-width: 1000px) {
   ul.new-1 {
-    min-height: 210px;
+    height: 210px;
+    overflow: hidden;
   }
   ul.new-2 {
-    min-height: 180px;
+    height: 180px;
+    overflow: hidden;
   }
   ul.new-3 {
-    min-height: 150px;
+    height: 150px;
+    overflow: hidden;
   }
   ul.new-4 {
-    min-height: 300px;
+    height: 300px;
+    overflow: hidden;
   }
   ul.new-5 {
     height: 295px;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 767px) {

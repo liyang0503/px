@@ -185,7 +185,7 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   overflow: hidden;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s2 {
-  width: 35%;
+  width: 80%;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -238,6 +238,9 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.icon-black {
   font-size: 18px;
   color: #000;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.shuanggonshi li a span.s2 {
+  width: 35%;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.record {
   padding: 5px 20px 20px;

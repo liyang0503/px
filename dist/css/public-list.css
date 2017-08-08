@@ -209,16 +209,18 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li.th {
   border-bottom: 1px solid #2f88a6;
-  padding: 6px 0;
+  padding: 6px 0 3px;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li.th a span {
   font-size: 16px;
   font-weight: bold;
   color: #2f88a6;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li.th a span.tit {
+  padding: 0 10px;
+}
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li.th {
   border-bottom: 3px solid #2f88a6;
-  padding-bottom: 0;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li.th a span.s2 {
   text-align: center;
@@ -681,6 +683,9 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
     width: 90px;
     padding: 8px;
     text-align: center;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s2 {
+    width: 70%;
   }
   section div.container div.public div.public-list div.chas-sec {
     width: 100%;

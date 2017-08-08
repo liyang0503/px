@@ -244,6 +244,50 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.shuanggonshi li a span.s2 {
   width: 35%;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc {
+  padding: 20px 30px;
+  letter-spacing: 2px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.tit {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table {
+  display: table;
+  width: 100%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr td,
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr th {
+  border: 1px solid #999;
+  font-size: 16px;
+  vertical-align: middle;
+  width: 7%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr th {
+  font-weight: normal;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr td div.lc-nr p {
+  line-height: 35px;
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr td div.lc-nr p a {
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr td div.lc-nr p a:hover {
+  color: blue;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.one {
+  padding-left: 50px;
+  margin: 60px 0 30px;
+  font-size: 16px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.two {
+  padding-left: 50px;
+  margin: 60px 0;
+  font-size: 16px;
+}
 section div.container div.public div.public-list div.row div.pub-rt div.record {
   padding: 5px 20px 20px;
 }
@@ -686,6 +730,26 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   }
   section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul li a span.s2 {
     width: 70%;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc {
+    padding: 10px 0;
+    letter-spacing: 0;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.tit {
+    font-size: 16px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr td,
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc table tbody tr th {
+    border: 1px solid #999;
+    font-size: 16px;
+    vertical-align: middle;
+    width: 50px;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.one {
+    padding-left: 0;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.publist-lc p.two {
+    padding-left: 0;
   }
   section div.container div.public div.public-list div.chas-sec {
     width: 100%;

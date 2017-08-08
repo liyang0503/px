@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be6fef9-f483-440c-a410-b3a4d92f7075" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/word/~$杨总确认.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/public-list.css" afterPath="$PROJECT_DIR$/dist/css/public-list.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/public-list-L.html" afterPath="$PROJECT_DIR$/dist/public-list-L.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.css" afterPath="$PROJECT_DIR$/public/css/public-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.less" afterPath="$PROJECT_DIR$/public/css/public-list.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public-list-L.html" afterPath="$PROJECT_DIR$/public/public-list-L.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +34,8 @@
       <file leaf-file-name="public-list-L.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/public-list-L.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="124" column="43" lean-forward="false" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
+            <state relative-caret-position="317">
+              <caret line="90" column="62" lean-forward="true" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/public-list.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
-              <caret line="934" column="46" lean-forward="true" selection-start-line="934" selection-start-column="46" selection-end-line="934" selection-end-column="46" />
+              <caret line="934" column="46" lean-forward="false" selection-start-line="934" selection-start-column="46" selection-end-line="934" selection-end-column="46" />
               <folding>
                 <element signature="e#209#3387#0" expanded="false" />
                 <element signature="e#340#529#0" expanded="false" />
@@ -417,8 +413,8 @@
         <option value="$PROJECT_DIR$/public/red-black-shou.html" />
         <option value="$PROJECT_DIR$/public/red-black-shi.html" />
         <option value="$PROJECT_DIR$/public/hdJL-yy.html" />
-        <option value="$PROJECT_DIR$/public/public-list-L.html" />
         <option value="$PROJECT_DIR$/public/css/public-list.less" />
+        <option value="$PROJECT_DIR$/public/public-list-L.html" />
         <option value="$PROJECT_DIR$/VERSION" />
       </list>
     </option>
@@ -635,12 +631,12 @@
       <workItem from="1502081898309" duration="12651000" />
       <workItem from="1502157425909" duration="14000" />
       <workItem from="1502173681914" duration="5296000" />
-      <workItem from="1502183686801" duration="2985000" />
+      <workItem from="1502183686801" duration="3078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367253000" />
+    <option name="totallyTimeSpent" value="367346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,6 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="115" column="46" lean-forward="true" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,23 +1063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/public-list-L.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="124" column="43" lean-forward="false" selection-start-line="124" selection-start-column="43" selection-end-line="124" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/public-list.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="934" column="46" lean-forward="true" selection-start-line="934" selection-start-column="46" selection-end-line="934" selection-end-column="46" />
+          <caret line="934" column="46" lean-forward="false" selection-start-line="934" selection-start-column="46" selection-end-line="934" selection-end-column="46" />
           <folding>
             <element signature="e#209#3387#0" expanded="false" />
             <element signature="e#340#529#0" expanded="false" />
@@ -1317,6 +1301,19 @@
             <element signature="e#36817#36883#0" expanded="false" />
             <element signature="e#36938#37073#0" expanded="false" />
             <element signature="e#36983#37050#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/public-list-L.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="90" column="62" lean-forward="true" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#p#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

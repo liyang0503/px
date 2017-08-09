@@ -6,7 +6,6 @@ section div.container div.public div.public-list {
 }
 section div.container div.public div.public-list div.row div.pub-le {
   width: 210px;
-  height: 560px;
   background: #fff;
 }
 section div.container div.public div.public-list div.row div.pub-le div.pub-t {
@@ -78,16 +77,19 @@ section div.container div.public div.public-list div.row div.pub-le > ul > li ul
 }
 section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li a {
   padding-left: 35px;
-  background: #dfedf2;
+  background: #fff;
 }
 section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li a s {
   margin-right: 5px;
+}
+section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li.on a,
+section div.container div.public div.public-list div.row div.pub-le > ul > li ul.zuzhi-list li:hover a {
+  background: #dfedf2;
 }
 section div.container div.public div.public-list div.row div.pub-rt {
   margin-left: 25px;
   width: 764px;
   background: #fff;
-  min-height: 560px;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t {
   padding: 15px 20px 0;
@@ -230,7 +232,7 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   width: 55%;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.s3 {
-  width: 75px;
+  width: 85px;
   text-align: center;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.pub-r-s > ul.red-info li a span.icon-red {
@@ -524,6 +526,40 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.chax-info div.cha-in table tbody tr th {
   background: #f1f9fa;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y {
+  padding: 25px;
+  position: relative;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y p.hdy-top {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot {
+  margin-top: 20px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot textarea {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y div.hdy-fot button {
+  display: block;
+  margin: 25px auto;
+  width: 115px;
+  font-size: 16px;
+  background: #2f88a6;
+  color: #fff;
+  border: none;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-y:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #2f88a6;
+  top: 37px;
+  left: 10px;
+}
 section div.container div.public div.public-list div.chas-sec {
   margin: auto;
   width: 565px;
@@ -610,7 +646,7 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.int-1
 section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   color: #2f88a6;
 }
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 999px) {
   section {
     background: #fff;
   }

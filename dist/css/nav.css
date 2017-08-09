@@ -508,6 +508,7 @@ div.search-box input {
     border: 2px solid #4f90d7;
     z-index: 30;
     padding: 8px 15px;
+    overflow: hidden;
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub ul.new-list li a i {
     width: 8px;
@@ -609,6 +610,30 @@ div.search-box input {
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le a.t img {
     width: 100%;
+  }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le div.zzjg-new p.z-tit {
+    font-size: 16px;
+    color: #2f88a6;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le div.zzjg-new p.z-tit a {
+    float: right;
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+  }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le div.zzjg-new ul.z-ul {
+    padding: 10px 0;
+  }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le div.zzjg-new ul.z-ul li {
+    padding: 3px 8px;
+  }
+  div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-le div.zzjg-new ul.z-ul li a {
+    display: block;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    text-align: center;
   }
   div.index-banner div.container div.index-banner-sec div.banner-sec-le ul.ban-uls li.ban-li div.sub.sub3 div.sub3-rt {
     width: 370px;

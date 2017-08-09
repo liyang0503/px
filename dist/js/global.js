@@ -7,7 +7,7 @@ $(function () {
    function top() {
       if ($('body').outerHeight() < wh) {
          $('body').css({paddingBottom: $('footer').outerHeight(), height: wh});
-         $('section').css({minHeight: wh - $('footer').outerHeight() - $('header').outerHeight()});
+         $('section').css({minHeight: wh - $('footer').outerHeight() - $('header').outerHeight() - 10});
          $('footer').css({
             position: 'absolute',
             left: 0,
@@ -74,6 +74,8 @@ $(function () {
 
 //   左右高度相等
    if (w > 993) {
+      var sec = $('section').outerHeight();
+      $('.pub-rt,.pub-le').css({minHeight: sec - 40 - $('.info-top').outerHeight()});
       var rth = $('.pub-rt').outerHeight();
       $('.pub-le').css({height: rth});
    }
@@ -136,5 +138,5 @@ function mar(ma, num) {
 }
 
 function msg() {
-   layer.msg('错误：数据请求错误！');
+   layer.msg('功能正在开发中');
 }

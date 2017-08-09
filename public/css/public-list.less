@@ -9,7 +9,7 @@ section {
             div.row {
                div.pub-le {
                   width: 210px;
-                  height: 560px;
+                  //height: 560px;
                   background: #fff;
                   div.pub-t {
                      padding: 4px 4px 0;
@@ -82,9 +82,14 @@ section {
                               padding: 0 1px;
                               a {
                                  padding-left: 35px;
-                                 background: #dfedf2;
+                                 background: #fff;
                                  s {
                                     margin-right: 5px;
+                                 }
+                              }
+                              &.on, &:hover {
+                                 a {
+                                    background: #dfedf2;
                                  }
                               }
                            }
@@ -96,7 +101,7 @@ section {
                   margin-left: 25px;
                   width: 764px;
                   background: #fff;
-                  min-height: 560px;
+                  //min-height: 560px;
                   div.pub-rt-t {
                      padding: 15px 20px 0;
                      div.media {
@@ -252,7 +257,7 @@ section {
                                        width: 55%;
                                     }
                                     span.s3 {
-                                       width: 75px;
+                                       width: 85px;
                                        text-align: center;
                                     }
                                     span.icon-red {
@@ -618,6 +623,42 @@ section {
                            }
                         }
                      }
+
+                     //   异议反馈
+                     div.hdjl-y {
+                        padding: 25px;
+                        position: relative;
+                        p.hdy-top {
+                           font-size: 16px;
+                           letter-spacing: 1px;
+                        }
+                        div.hdy-fot {
+                           margin-top: 20px;
+                           textarea {
+                              display: block;
+                              width: 100%;
+                              padding: 5px 10px;
+                           }
+                           button {
+                              display: block;
+                              margin: 25px auto;
+                              width: 115px;
+                              font-size: 16px;
+                              background: @bj;
+                              color: #fff;
+                              border: none;
+                           }
+                        }
+                        &:before {
+                           content: "";
+                           position: absolute;
+                           width: 5px;
+                           height: 5px;
+                           background: @bj;
+                           top: 37px;
+                           left: 10px;
+                        }
+                     }
                   }
                }
             }
@@ -717,7 +758,7 @@ section {
    }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 999px) {
    section {
       background: #fff;
       div.container {

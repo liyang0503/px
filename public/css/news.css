@@ -86,3 +86,18 @@ section div.container div.news div.news-sec div.news-rt ul.news-ul li a span.t {
   font-size: 12px;
   color: #999;
 }
+@media screen and (max-width: 767px) {
+  section div.container div.news div.news-sec div.news-le {
+    color: #333;
+  }
+  section div.container div.news div.news-sec div.news-le div.news-top p.p2 span {
+    float: right;
+  }
+  section div.container div.news div.news-sec div.news-le div.news-top div.bshare-custom {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    padding: 5px 0;
+    text-align: center;
+  }
+}

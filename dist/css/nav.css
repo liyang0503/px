@@ -291,6 +291,12 @@ img.ban {
 .list2-sec.active {
   display: block;
 }
+.tab-hover-sec {
+  display: none;
+}
+.tab-hover-sec.active {
+  display: block;
+}
 div.info-top {
   height: 48px;
   padding-top: 20px;

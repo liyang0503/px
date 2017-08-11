@@ -74,11 +74,17 @@ ul.time.black li a span.s2.top {
   background: #000;
 }
 .list3-sec,
-.list4-sec {
+.list4-sec,
+.tab-hover-sec-one,
+.tab-hover-sec-two,
+.tab-hover-sec-three {
   display: none;
 }
 .list3-sec.active,
-.list4-sec.active {
+.list4-sec.active,
+.tab-hover-sec-one.active,
+.tab-hover-sec-two.active,
+.tab-hover-sec-three.active {
   display: block;
 }
 section div.container div.index {
@@ -120,6 +126,9 @@ section div.container div.index div.index-le > div.row div.new div.new-top > spa
 section div.container div.index div.index-le > div.row div.new div.new-top ul {
   float: left;
   margin-left: 10px;
+}
+section div.container div.index div.index-le > div.row div.new div.new-top ul li {
+  cursor: pointer;
 }
 section div.container div.index div.index-le > div.row div.new div.new-top ul li a {
   font-size: 16px;

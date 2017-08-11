@@ -35,6 +35,9 @@ $(function () {
    tab('.list3-li', '.list3-sec');
    tab('.list4-li', '.list4-sec');
    tab('.tit-li', '.ul2-sec');
+   tab('.tab-hover-li-one', '.tab-hover-sec-one');
+   tab('.tab-hover-li-two', '.tab-hover-sec-two');
+   tab('.tab-hover-li-three', '.tab-hover-sec-three');
 
 //   鼠标悬停预览切换
    tab2('.rt-li', '.rt-ul');
@@ -44,6 +47,9 @@ $(function () {
    tab2('.list3-li', '.list3-sec');
    tab2('.list4-li', '.list4-sec');
    tab2('.tit-li', '.ul2-sec');
+   tab2('.tab-hover-li-one', '.tab-hover-sec-one');
+   tab2('.tab-hover-li-two', '.tab-hover-sec-two');
+   tab2('.tab-hover-li-three', '.tab-hover-sec-three');
 
 //   右侧切换部分的宽度（手机）
    if (w < 767) {

@@ -81,7 +81,7 @@ $(function () {
    }
 
 //   悬停预览
-   tabHover('.tab-hover-li', '.tab-hover-sec');
+//    tabHover('.tab-hover-li', '.tab-hover-sec');
 
 });
 
@@ -129,7 +129,7 @@ function tab2(cli, sec) {
    });
 }
 
-//鼠标悬停预览
+//鼠标悬停预览、点击预览
 function tabHover(cli, sec) {
    var i;
    $(cli).parent().each(function (index) {
@@ -138,7 +138,6 @@ function tabHover(cli, sec) {
             i = ind;
          }
          $(this).hover(function () {
-            console.log(ind);
             $($(sec).parent()[index]).children(sec).removeClass('active');
             $($($(sec).parent()[index]).children(sec)[ind]).addClass('active');
          }, function () {

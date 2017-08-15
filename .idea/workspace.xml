@@ -2,29 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be6fef9-f483-440c-a410-b3a4d92f7075" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/zhushou-f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/zhushou-p.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/new/专题建设.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/red-h-9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/nav.css" afterPath="$PROJECT_DIR$/dist/css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/public-list.css" afterPath="$PROJECT_DIR$/dist/css/public-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/hdJL-yy.html" afterPath="$PROJECT_DIR$/dist/hdJL-yy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/global.js" afterPath="$PROJECT_DIR$/dist/js/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/public-list.html" afterPath="$PROJECT_DIR$/dist/public-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/zhushou-x.html" afterPath="$PROJECT_DIR$/dist/zhushou-x.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/zhushou.html" afterPath="$PROJECT_DIR$/dist/zhushou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/zuzhi.html" afterPath="$PROJECT_DIR$/dist/zuzhi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/nav.css" afterPath="$PROJECT_DIR$/public/css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/nav.less" afterPath="$PROJECT_DIR$/public/css/nav.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.css" afterPath="$PROJECT_DIR$/public/css/public-list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/public-list.less" afterPath="$PROJECT_DIR$/public/css/public-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/hdJL-yy.html" afterPath="$PROJECT_DIR$/public/hdJL-yy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/global.js" afterPath="$PROJECT_DIR$/public/js/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public-list.html" afterPath="$PROJECT_DIR$/public/public-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/zhushou-x.html" afterPath="$PROJECT_DIR$/public/zhushou-x.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/zhushou.html" afterPath="$PROJECT_DIR$/public/zhushou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/zuzhi.html" afterPath="$PROJECT_DIR$/public/zuzhi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/info.css" afterPath="$PROJECT_DIR$/dist/css/info.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-1.html" afterPath="$PROJECT_DIR$/dist/red-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-10.html" afterPath="$PROJECT_DIR$/dist/red-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-11.html" afterPath="$PROJECT_DIR$/dist/red-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-12.html" afterPath="$PROJECT_DIR$/dist/red-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-13.html" afterPath="$PROJECT_DIR$/dist/red-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-14.html" afterPath="$PROJECT_DIR$/dist/red-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-2.html" afterPath="$PROJECT_DIR$/dist/red-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-3.html" afterPath="$PROJECT_DIR$/dist/red-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-4.html" afterPath="$PROJECT_DIR$/dist/red-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-5.html" afterPath="$PROJECT_DIR$/dist/red-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-6.html" afterPath="$PROJECT_DIR$/dist/red-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-7.html" afterPath="$PROJECT_DIR$/dist/red-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-8.html" afterPath="$PROJECT_DIR$/dist/red-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-9.html" afterPath="$PROJECT_DIR$/dist/red-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-black-shou.html" afterPath="$PROJECT_DIR$/dist/red-black-shou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-black.html" afterPath="$PROJECT_DIR$/dist/red-black.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-h-1.html" afterPath="$PROJECT_DIR$/dist/red-h-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/red-h-2.html" afterPath="$PROJECT_DIR$/dist/red-h-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/zhushou-p.html" afterPath="$PROJECT_DIR$/dist/zhushou-p.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info.css" afterPath="$PROJECT_DIR$/public/css/info.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/info.less" afterPath="$PROJECT_DIR$/public/css/info.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-1.html" afterPath="$PROJECT_DIR$/public/red-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-10.html" afterPath="$PROJECT_DIR$/public/red-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-11.html" afterPath="$PROJECT_DIR$/public/red-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-12.html" afterPath="$PROJECT_DIR$/public/red-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-13.html" afterPath="$PROJECT_DIR$/public/red-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-14.html" afterPath="$PROJECT_DIR$/public/red-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-2.html" afterPath="$PROJECT_DIR$/public/red-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-3.html" afterPath="$PROJECT_DIR$/public/red-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-4.html" afterPath="$PROJECT_DIR$/public/red-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-5.html" afterPath="$PROJECT_DIR$/public/red-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-6.html" afterPath="$PROJECT_DIR$/public/red-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-7.html" afterPath="$PROJECT_DIR$/public/red-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-8.html" afterPath="$PROJECT_DIR$/public/red-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-9.html" afterPath="$PROJECT_DIR$/public/red-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-black-shou.html" afterPath="$PROJECT_DIR$/public/red-black-shou.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-black.html" afterPath="$PROJECT_DIR$/public/red-black.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-h-1.html" afterPath="$PROJECT_DIR$/public/red-h-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/red-h-2.html" afterPath="$PROJECT_DIR$/public/red-h-2.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,23 +76,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="zhushou.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/zhushou.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="125" column="66" lean-forward="false" selection-start-line="125" selection-start-column="66" selection-end-line="125" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhushou-p.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/zhushou-p.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="200" column="102" lean-forward="true" selection-start-line="200" selection-start-column="102" selection-end-line="200" selection-end-column="102" />
+            <state relative-caret-position="378">
+              <caret line="1365" column="123" lean-forward="true" selection-start-line="1365" selection-start-column="123" selection-end-line="1365" selection-end-column="123" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,26 +98,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public-list.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/public-list.less">
+      <file leaf-file-name="red-black-h.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="163" column="65" lean-forward="false" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="65" />
+            <state relative-caret-position="374">
+              <caret line="163" column="53" lean-forward="false" selection-start-line="163" selection-start-column="50" selection-end-line="163" selection-end-column="53" />
               <folding>
-                <element signature="e#209#3593#0" expanded="false" />
-                <element signature="e#3873#5262#0" expanded="false" />
-                <element signature="e#4019#4402#0" expanded="false" />
-                <element signature="e#4442#4896#0" expanded="false" />
-                <element signature="e#6820#9659#0" expanded="false" />
-                <element signature="e#9760#18393#0" expanded="false" />
-                <element signature="e#18452#24071#0" expanded="false" />
-                <element signature="e#24132#31617#0" expanded="false" />
-                <element signature="e#31682#34907#0" expanded="false" />
-                <element signature="e#31919#34134#0" expanded="false" />
-                <element signature="e#37928#42844#0" expanded="false" />
-                <element signature="e#42898#47296#0" expanded="false" />
-                <element signature="e#43583#46237#0" expanded="false" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#li#14;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#14;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/info.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,10 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../images</find>
-      <find>images/</find>
-      <find>06.22</find>
-      <find>color</find>
       <find>new-top</find>
       <find>media</find>
       <find>zs</find>
@@ -150,6 +189,10 @@
       <find>list3</find>
       <find>color4</find>
       <find>2016/</find>
+      <find>2016.06.02</find>
+      <find>国家企业信息公示平台</find>
+      <find>2016</find>
+      <find>06</find>
     </findStrings>
     <replaceStrings>
       <replace>public/js</replace>
@@ -167,6 +210,11 @@
       <replace>2017-06-</replace>
       <replace>bj</replace>
       <replace>2016-</replace>
+      <replace>2016-06-02</replace>
+      <replace>萍乡市地税局</replace>
+      <replace>萍乡市中级人民法院</replace>
+      <replace>2017</replace>
+      <replace>08</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,34 +223,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/list-b.html" />
-        <option value="$PROJECT_DIR$/public/list-s.html" />
-        <option value="$PROJECT_DIR$/public/new.html" />
-        <option value="$PROJECT_DIR$/public/public.html" />
-        <option value="$PROJECT_DIR$/public/public-list-c.html" />
-        <option value="$PROJECT_DIR$/public/public-list-L.html" />
-        <option value="$PROJECT_DIR$/public/red-1.html" />
-        <option value="$PROJECT_DIR$/public/red-2.html" />
-        <option value="$PROJECT_DIR$/public/red-3.html" />
-        <option value="$PROJECT_DIR$/public/red-4.html" />
-        <option value="$PROJECT_DIR$/public/red-5.html" />
-        <option value="$PROJECT_DIR$/public/red-6.html" />
-        <option value="$PROJECT_DIR$/public/red-7.html" />
-        <option value="$PROJECT_DIR$/public/red-8.html" />
-        <option value="$PROJECT_DIR$/public/red-9.html" />
         <option value="$PROJECT_DIR$/public/red-10.html" />
         <option value="$PROJECT_DIR$/public/red-11.html" />
         <option value="$PROJECT_DIR$/public/red-12.html" />
         <option value="$PROJECT_DIR$/public/red-13.html" />
         <option value="$PROJECT_DIR$/public/red-14.html" />
-        <option value="$PROJECT_DIR$/public/red-black-h.html" />
-        <option value="$PROJECT_DIR$/public/red-black-shi.html" />
-        <option value="$PROJECT_DIR$/public/red-black-shou.html" />
-        <option value="$PROJECT_DIR$/public/red-h-1.html" />
-        <option value="$PROJECT_DIR$/public/red-h-2.html" />
         <option value="$PROJECT_DIR$/public/shensu.html" />
         <option value="$PROJECT_DIR$/public/zuzhi-x.html" />
-        <option value="$PROJECT_DIR$/public/red-black.html" />
         <option value="$PROJECT_DIR$/public/zhengce.html" />
         <option value="$PROJECT_DIR$/public/zhuanti.html" />
         <option value="$PROJECT_DIR$/public/zhengce-b.html" />
@@ -214,7 +241,6 @@
         <option value="$PROJECT_DIR$/public/css/news.less" />
         <option value="$PROJECT_DIR$/public/js/index.js" />
         <option value="$PROJECT_DIR$/public/css/index.less" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/js/global.js" />
         <option value="$PROJECT_DIR$/public/public-list.html" />
         <option value="$PROJECT_DIR$/public/css/nav.less" />
@@ -225,6 +251,28 @@
         <option value="$PROJECT_DIR$/public/zuzhi.html" />
         <option value="$PROJECT_DIR$/public/hdJL-yy.html" />
         <option value="$PROJECT_DIR$/public/zhushou-p.html" />
+        <option value="$PROJECT_DIR$/public/red-1.html" />
+        <option value="$PROJECT_DIR$/public/css/info.less" />
+        <option value="$PROJECT_DIR$/public/red-h-1.html" />
+        <option value="$PROJECT_DIR$/public/red-h-2.html" />
+        <option value="$PROJECT_DIR$/public/red-h-3.html" />
+        <option value="$PROJECT_DIR$/public/red-h-4.html" />
+        <option value="$PROJECT_DIR$/public/red-h-5.html" />
+        <option value="$PROJECT_DIR$/public/red-h-6.html" />
+        <option value="$PROJECT_DIR$/public/red-h-7.html" />
+        <option value="$PROJECT_DIR$/public/red-h-8.html" />
+        <option value="$PROJECT_DIR$/public/red-h-9.html" />
+        <option value="$PROJECT_DIR$/public/red-h-10.html" />
+        <option value="$PROJECT_DIR$/public/red-h-11.html" />
+        <option value="$PROJECT_DIR$/public/red-h-12.html" />
+        <option value="$PROJECT_DIR$/public/red-h-13.html" />
+        <option value="$PROJECT_DIR$/public/red-h-14.html" />
+        <option value="$PROJECT_DIR$/public/red-h-15.html" />
+        <option value="$PROJECT_DIR$/public/red-black.html" />
+        <option value="$PROJECT_DIR$/public/red-black-shou.html" />
+        <option value="$PROJECT_DIR$/public/red-black-h.html" />
+        <option value="$PROJECT_DIR$/public/red-black-shi.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/VERSION" />
       </list>
     </option>
@@ -303,16 +351,16 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\DAY\first-gulp\public" />
-      <recent name="D:\Work\gw-new\public\html" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Work\Pxiang\px\public" />
       <recent name="E:\Work\Pxiang\px\public\images" />
       <recent name="E:\Work\Pxiang\px\public\css" />
       <recent name="E:\Work\Pxiang\px\public\js" />
       <recent name="E:\Work\Pxiang\px\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DAY\first-gulp\public" />
+      <recent name="D:\Work\gw-new\public\html" />
     </key>
   </component>
   <component name="RunManager">
@@ -444,12 +492,12 @@
       <workItem from="1502694290784" duration="1062000" />
       <workItem from="1502696954547" duration="6435000" />
       <workItem from="1502763053962" duration="56000" />
-      <workItem from="1502765881107" duration="11000" />
+      <workItem from="1502765881107" duration="8460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407537000" />
+    <option name="totallyTimeSpent" value="415986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,19 +514,19 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25244832" sideWeight="0.5021322" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2383025" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41131666" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41131666" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -501,153 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/record.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/record-z.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="66" column="53" lean-forward="false" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black-shi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="66" column="53" lean-forward="false" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black-shou.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="66" column="53" lean-forward="false" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-h-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-h-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/shensu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -673,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="143" column="24" lean-forward="true" selection-start-line="127" selection-start-column="18" selection-end-line="143" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/red-black.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="133" column="38" lean-forward="true" selection-start-line="133" selection-start-column="38" selection-end-line="133" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -774,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="789" column="38" lean-forward="true" selection-start-line="789" selection-start-column="38" selection-end-line="789" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -866,6 +753,326 @@
           <caret line="200" column="102" lean-forward="true" selection-start-line="200" selection-start-column="102" selection-end-line="200" selection-end-column="102" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="155" column="42" lean-forward="true" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="196" column="40" lean-forward="true" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/info.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="65" lean-forward="false" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="192" column="40" lean-forward="true" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="94" column="33" lean-forward="false" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="194" column="23" lean-forward="false" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="139" column="46" lean-forward="false" selection-start-line="139" selection-start-column="46" selection-end-line="190" selection-end-column="22" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="190" column="23" lean-forward="false" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="194" column="23" lean-forward="true" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="162" column="46" lean-forward="false" selection-start-line="162" selection-start-column="46" selection-end-line="236" selection-end-column="22" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="141" column="46" lean-forward="false" selection-start-line="141" selection-start-column="46" selection-end-line="194" selection-end-column="22" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="192" column="40" lean-forward="true" selection-start-line="192" selection-start-column="40" selection-end-line="192" selection-end-column="40" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="139" column="46" lean-forward="false" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-h-15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="141" column="46" lean-forward="false" selection-start-line="141" selection-start-column="46" selection-end-line="194" selection-end-column="22" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#1;n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black-shou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="288" column="59" lean-forward="true" selection-start-line="288" selection-start-column="59" selection-end-line="288" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="416" column="25" lean-forward="true" selection-start-line="289" selection-start-column="20" selection-end-line="416" selection-end-column="25" />
+          <folding>
+            <element signature="n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black-shi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1412">
+          <caret line="305" column="53" lean-forward="false" selection-start-line="305" selection-start-column="53" selection-end-line="305" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/red-black-h.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="163" column="53" lean-forward="false" selection-start-line="163" selection-start-column="50" selection-end-line="163" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#12;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#13;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#li#14;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#a#0;n#li#14;n#ul#0;n#div#1;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="1365" column="123" lean-forward="true" selection-start-line="1365" selection-start-column="123" selection-end-line="1365" selection-end-column="123" />
+          <folding>
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

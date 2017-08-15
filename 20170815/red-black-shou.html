@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>信用萍乡</title>
+   <!--字体图标-->
+   <link rel="stylesheet" href="font/style.css">
+   <!--样式表-->
+   <link rel="stylesheet" href="js/layer/mobile/need/layer.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <!--本页主体css-->
+   <link rel="stylesheet" href="css/public-list.css">
+
+   <!--js库文件-->
+   <script src="js/jquery/jquery.min.js"></script>
+   <script src="js/bootstrap/bootstrap.min.js"></script>
+   <script src="js/layer/layer.js"></script>
+   <script src="js/global.js"></script>
+
+   <!--[if lt IE 9]>
+   <script src="js/placeholder.js"></script>
+   <script src="js/html5.js"></script>
+   <script src="js/respond.js"></script>
+   <![endif]-->
+</head>
+<body>
+<!--头部-->
+<header>
+   <div class="container head-pc hidden-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl">
+            <a href="http://www.creditjx.gov.cn/">
+               <img src="https://img.sandbox.qixinyun.com/pxiang-jx.png" alt="">
+            </a>
+         </li>
+         <li class="fr li2"><a href="zhuce.html">注册</a></li>
+         <li class="fr li2"><a href="login.html">登录</a></li>
+      </ul>
+   </div>
+   <div class="container head-sj visible-xs">
+      <a href="index.html" class="logo"><img src="https://img.sandbox.qixinyun.com/pxiang-logo.png" alt=""></a>
+      <ul class="h_top row">
+         <li class="fl">
+            <a href="http://www.creditjx.gov.cn/">
+               <img src="https://img.sandbox.qixinyun.com/pxiang-jx.png" alt="">
+            </a>
+         </li>
+         <li class="fr li2"><a href="zhuce.html">注册</a></li>
+         <li class="fr li2"><a href="login.html">登录</a></li>
+      </ul>
+   </div>
+   <!--导航-->
+   <nav>
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="index.html">首页</a></li>
+            <li class="fl"><a href="zuzhi.html">组织架构</a></li>
+            <li class="fl"><a href="public-list.html">信息双公示</a></li>
+            <li class="fl active"><a href="red-black.html">信用红黑榜</a></li>
+            <li class="fl"><a href="zhengce.html">政策法规</a></li>
+            <li class="fl"><a href="record.html">联合奖惩</a></li>
+            <li class="fl"><a href="jianguan.html">信用监管</a></li>
+            <li class="fl"><a href="list.html">信用新闻</a></li>
+            <li class="fl"><a href="zhuanti.html">专题建设</a></li>
+            <li class="fl"><a href="zhushou.html">信用助手</a></li>
+            <li class="fl"><a href="hdJL.html">互动交流</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+<!--主体-->
+<section>
+   <div class="container">
+      <div class="public">
+         <div class="info-top hidden-xs hidden-sm">
+            <a href="index.html"><img src="https://img.sandbox.qixinyun.com/pxiang-info-ico-01.png" alt=""></a>
+            <a href="red-black.html" class="a1">红黑榜</a>
+            <span class="a1">守信案例</span>
+            <div class="search-box">
+               <form action="" onsubmit="return search();">
+                  <input type="text" id="text" placeholder="请输入搜索内容">
+                  <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
+               </form>
+            </div>
+         </div>
+         <div class="info-top visible-xs visible-sm">
+            <span>守信案例</span>
+            <span class="s2 s2-ico glyphicon glyphicon-triangle-bottom"></span>
+            <ul class="ls">
+               <li><a href="red-black.html">信用红榜</a></li>
+               <li><a href="red-black-h.html">信用黑榜</a></li>
+               <li><a href="red-black-shou.html">守信典型案例</a></li>
+               <li><a href="red-black-shi.html">失信典型案例</a></li>
+            </ul>
+         </div>
+         <div class="search-box visible-xs visible-sm">
+            <form action="" onsubmit="return search();">
+               <input type="text" id="text" placeholder="请输入搜索内容">
+               <button>搜索 <span class="glyphicon glyphicon-search"></span></button>
+            </form>
+         </div>
+         <div class="public-list">
+            <div class="row hidden-xs hidden-sm">
+               <div class="pub-le fl">
+                  <div class="pub-t">
+                     <img src="https://img.sandbox.qixinyun.com/pxiang-info-t-09.png" alt="">
+                  </div>
+                  <ul class="pub-ul">
+                     <li>
+                        <a href="red-black.html"><s></s><i></i>信用红榜</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li>
+                        <a href="red-black-h.html"><s></s><i></i>信用黑榜</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li class="active">
+                        <a href="red-black-shou.html"><s></s><i></i>守信典型案例</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                     <li>
+                        <a href="red-black-shi.html"><s></s><i></i>失信典型案例</a>
+                        <img src="https://img.sandbox.qixinyun.com/pxiang-lantiao.png" alt="">
+                     </li>
+                  </ul>
+               </div>
+               <div class="pub-rt fl">
+                  <div class="pub-rt-s">
+                     <div class="pub-r-s">
+                        <ul class="red-info">
+                           <li class="rh-search th">
+                              <a>
+                                 <span class="s2">信用主体</span>
+                                 <span class="s4">信息来源</span>
+                                 <span class="s3">时间</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-1.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">江西省萍乡市昌盛城市投资有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-2.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市湘旺投资有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-3.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市汇丰投资有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-4.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市海绵城市建设有限责任公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-5.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市湘东区麻山生态新区开发建设投资有限公司 </span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-6.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市城市建设投资发展公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-7.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市昌兴投资有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-8.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市昌达城市管理服务有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-9.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市汇农实业有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-10.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市东方昌盛投资建设有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-11.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市城北房地产有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-12.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市金融控股有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-13.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市汇清科技投资有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                           <li class="rh-search">
+                              <a href="red-14.html">
+                                 <span class="icon-red"></span>
+                                 <span class="s2">萍乡市中交隧道局中环北路建设有限公司</span>
+                                 <span class="s4">国家企业信息公示平台</span>
+                                 <span class="s3">2017-06-02</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <!--<div aria-label="Page navigation" class="page">
+                           <ul class="pagination">
+                              <li class="disabled">
+                                 <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                 </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                 <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>-->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="pub-sj-list visible-xs visible-sm">
+               <ul>
+                  <li class="rh-search">
+                     <a href="red-1.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           江西省萍乡市昌盛城市投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-2.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市湘旺投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-3.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市汇丰投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-4.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市海绵城市建设有限责任公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-5.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市湘东区麻山生态新区开发建设投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-6.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市城市建设投资发展公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-7.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市昌兴投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-8.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市昌达城市管理服务有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-9.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市汇农实业有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-10.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市东方昌盛投资建设有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-11.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市城北房地产有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-12.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市金融控股有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-13.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市汇清科技投资有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+                  <li class="rh-search">
+                     <a href="red-14.html">
+                        <p style="padding-right: 0;">
+                           <span class="icon-red" style="position: relative;color: red"></span>
+                           萍乡市中交隧道局中环北路建设有限公司
+                        </p>
+                        <div>国家企业信息公示平台 <span>2017-06-02</span></div>
+                     </a>
+                  </li>
+               </ul>
+               <div aria-label="Page navigation" class="page">
+                  <ul class="pagination">
+                     <li class="disabled">
+                        <a href="#" aria-label="Previous">
+                           <span aria-hidden="true">«</span>
+                        </a>
+                     </li>
+                     <li class="active"><a href="#">1</a></li>
+                     <li><a href="#">2</a></li>
+                     <li><a href="#">3</a></li>
+                     <li><a href="#">4</a></li>
+                     <li><a href="#">5</a></li>
+                     <li>
+                        <a href="#" aria-label="Next">
+                           <span aria-hidden="true">»</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!--PC底部-->
+<footer>
+   <div class="foot foot2">
+      <div class="container">
+         <ul class="row">
+            <li class="fl"><a href="info.html">帮助说明</a></li>
+            <li class="fl"><a href="info.html">技术支持</a></li>
+            <li class="fl"><a href="info.html">链接我站</a></li>
+            <li class="fl"><a href="info.html">隐私保护</a></li>
+            <li class="fl"><a href="info.html">版权声明</a></li>
+            <li class="fl"><a href="info.html">关于我们</a></li>
+         </ul>
+         <p>备案号：赣ICP备12000701号-1 Copyright©信用萍乡 <a href="http://www.qixinyun.com">企信云</a>提供技术支持</p>
+      </div>
+   </div>
+</footer>
+
+
+<!--本页js-->
+<script>
+   function search() {
+      var texts = $('#text').val();
+      $('.rh-search').each(function () {
+         $(this).show();
+         var span = $(this).find('span.s2').text();
+         if (span.indexOf(texts) < 0) {
+            $(this).hide();
+         }
+      });
+      return false;
+   }
+</script>
+</body>
+</html>

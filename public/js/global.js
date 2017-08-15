@@ -27,7 +27,7 @@ $(function () {
    });
 
    //手机导航
-   if (w < 993) {
+   if (w < 999) {
       var sum = 0, arr = [], sum1;
       $('nav li').each(function (index) {
          sum += $(this).outerWidth();
@@ -71,6 +71,29 @@ $(function () {
    $('.s2-ico').click(function () {
       $(this).next('.ls').slideToggle('fast');
    });
+   if (w < 999) {
+      var sums = 0, arrs = [], sums1;
+      $('.sj-info-nav li').each(function (index) {
+         sums += $(this).outerWidth();
+         arrs.push(sums);
+         if ($(this).hasClass('active')) {
+            sums1 = arrs[index] - 200;
+         }
+      });
+      $('.sj-info-nav').css({width: (sums + 2) + "px"});
+      if (sum1 >= 0 && sum1 <= (sums - w)) {
+         $('.sj-info-nav').css({left: -sum1 + 'px'});
+      } else if (sum1 < 0) {
+         $('.sj-info-nav').css({left: 0});
+      } else {
+         $('.sj-info-nav').css({left: -(sums - w) + 'px'});
+      }
+
+      $('.sj-info-nav').on("touchmove", function (e) {
+         e.stopPropagation();
+         $(this).css({left: 'auto'});
+      });
+   }
 
 //   左右高度相等
    if (w > 993) {

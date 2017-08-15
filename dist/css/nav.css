@@ -784,6 +784,7 @@ div.search-box input {
     line-height: 40px;
     color: #fff;
     position: relative;
+    overflow: scroll;
   }
   div.info-top span {
     font-size: 1.4rem;
@@ -811,6 +812,11 @@ div.search-box input {
   div.info-top ul.ls li a {
     display: block;
     padding: 5px 15px;
+  }
+  div.info-top ul.sj-info-nav li a {
+    display: block;
+    padding-right: 15px;
+    color: #fff;
   }
   div.search-box {
     float: none;

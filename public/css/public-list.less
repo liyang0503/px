@@ -131,6 +131,104 @@ section {
                               }
                            }
                         }
+                        &.qa {
+                           div.media-left {
+                              width: 20%;
+                           }
+                           div.media-body {
+                              padding-left: 1%;
+                              padding-right: 45%;
+                           }
+                        }
+                     }
+
+                     //   信用管理师培训
+                     div.qua-sec {
+                        margin-left: -12px;
+                        margin-right: -12px;
+                        > div {
+                           padding: 5px 12px;
+                           &.qua-a {
+                              a {
+                                 display: block;
+                                 position: relative;
+                                 > img {
+                                    width: 100%;
+                                 }
+                                 div.d1 {
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    top: 0;
+                                    left: 0;
+                                    background: rgba(0, 0, 0, 0.2);
+                                    text-align: center;
+                                    color: #fff;
+                                    padding: 30% 15%;
+                                    p.p1 {
+                                       font-size: 16px;
+                                       font-weight: bold;
+                                       border-bottom: 1px solid #fff;
+                                       padding: 8px 0;
+                                       margin: 10px auto;
+                                    }
+                                 }
+                              }
+                           }
+                           &.qua-b {
+                              div.row {
+                                 margin-left: -12px;
+                                 margin-right: -12px;
+                                 > div {
+                                    padding: 0 12px;
+                                    a {
+                                       position: relative;
+                                       display: block;
+                                       color: #fff;
+                                       margin-bottom: 5px;
+                                       > img {
+                                          width: 100%;
+                                       }
+                                       div.ts {
+                                          opacity: 0;
+                                          position: absolute;
+                                          width: 100%;
+                                          height: 100%;
+                                          top: 0;
+                                          left: 0;
+                                          border: 6px solid rgba(181, 181, 181, 0.6);
+                                          -webkit-transition: all 0.3s linear;
+                                          -moz-transition: all 0.3s linear;
+                                          -o-transition: all 0.3s linear;
+                                          transition: all 0.3s linear;
+                                          div.d1 {
+                                             height: 100%;
+                                             background: rgba(0, 0, 0, 0.6);
+                                             padding: 5px 12px;
+                                             p.tit {
+                                                text-align: center;
+                                                padding: 5px;
+                                                border-bottom: 1px solid #ddd;
+                                                line-height: 130%;
+                                             }
+                                             div.d2 {
+                                                padding-left: 25px;
+                                                p {
+                                                   font-size: 12px;
+                                                }
+                                             }
+                                          }
+                                       }
+                                       &:hover {
+                                          div.ts {
+                                             opacity: 1;
+                                          }
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
                      }
                   }
                   div.pub-rt-s {
@@ -660,6 +758,83 @@ section {
                         }
                      }
                   }
+
+                  //   信用服务机构
+                  div.agents-sec {
+                     padding: 20px;
+                     div.remen {
+                        border: 1px solid #ddd;
+                        background: #fff;
+                        margin-bottom: 15px;
+                        div.d1 {
+                           height: 120px;
+                           background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-bj.jpg");
+                           background-size: cover;
+                           padding: 40px 15px 0;
+                           position: relative;
+                           > a {
+                              margin-right: 17px;
+                              img {
+                                 width: 53px;
+                                 height: 51px;
+                              }
+                           }
+                           > div {
+                              p.p1 {
+                                 font-size: 16px;
+                                 margin-bottom: 3px;
+                                 span {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    font-size: 12px;
+                                    background: #fec00f;
+                                    color: #fff;
+                                    line-height: 100%;
+                                    margin-left: 12px;
+                                    padding: 1px 4px;
+                                 }
+                              }
+                              p.p2 {
+                                 font-size: 12px;
+                                 span {
+                                    color: red;
+                                 }
+                              }
+                           }
+                           > span {
+                              position: absolute;
+                              width: 41px;
+                              height: 49px;
+                              background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-02.png");
+                              color: #fff;
+                              font-size: 12px;
+                              right: 12px;
+                              top: -7px;
+                              line-height: 130%;
+                              letter-spacing: 2px;
+                              padding: 5px;
+                           }
+                        }
+                        div.d2 {
+                           text-align: center;
+                           padding: 20px 0;
+                           p {
+                              font-size: 12px;
+                              margin-bottom: 15px;
+                           }
+                           a {
+                              border: 1px solid @bj;
+                              color: @bj;
+                              padding: 3px 15px;
+                              border-radius: 3px;
+                              &:hover {
+                                 background: @bj;
+                                 color: #fff;
+                              }
+                           }
+                        }
+                     }
+                  }
                }
             }
 
@@ -903,6 +1078,19 @@ section {
             div.public-list {
                div.row {
                   div.pub-rt {
+                     div.pub-rt-t {
+                        div.media {
+                           &.qa {
+                              div.media-left {
+                                 width: 30%;
+                              }
+                              div.media-body {
+                                 padding-left: 0;
+                                 padding-right: 0;
+                              }
+                           }
+                        }
+                     }
                      //   互动交流
                      div.pub-rt-s {
                         div.hdjl-sec {

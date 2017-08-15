@@ -120,6 +120,94 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media div.media-body div span {
   float: right;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media.qa div.media-left {
+  width: 20%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media.qa div.media-body {
+  padding-left: 1%;
+  padding-right: 45%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div {
+  padding: 5px 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-a a {
+  display: block;
+  position: relative;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-a a > img {
+  width: 100%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-a a div.d1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+  padding: 30% 15%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-a a div.d1 p.p1 {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  padding: 8px 0;
+  margin: 10px auto;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div {
+  padding: 0 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a {
+  position: relative;
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a > img {
+  width: 100%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a div.ts {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 6px solid rgba(181, 181, 181, 0.6);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a div.ts div.d1 {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a div.ts div.d1 p.tit {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  line-height: 130%;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a div.ts div.d1 div.d2 {
+  padding-left: 25px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a div.ts div.d1 div.d2 p {
+  font-size: 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.qua-sec > div.qua-b div.row > div a:hover div.ts {
+  opacity: 1;
+}
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s {
   padding: 5px 20px 20px;
 }
@@ -560,6 +648,79 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s
   top: 37px;
   left: 10px;
 }
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec {
+  padding: 20px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen {
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 15px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 {
+  height: 120px;
+  background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-bj.jpg");
+  background-size: cover;
+  padding: 40px 15px 0;
+  position: relative;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > a {
+  margin-right: 17px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > a img {
+  width: 53px;
+  height: 51px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > div p.p1 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > div p.p1 span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  background: #fec00f;
+  color: #fff;
+  line-height: 100%;
+  margin-left: 12px;
+  padding: 1px 4px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > div p.p2 {
+  font-size: 12px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > div p.p2 span {
+  color: red;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d1 > span {
+  position: absolute;
+  width: 41px;
+  height: 49px;
+  background-image: url("https://img.sandbox.qixinyun.com/hzlh-remen-02.png");
+  color: #fff;
+  font-size: 12px;
+  right: 12px;
+  top: -7px;
+  line-height: 130%;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d2 {
+  text-align: center;
+  padding: 20px 0;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d2 p {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d2 a {
+  border: 1px solid #2f88a6;
+  color: #2f88a6;
+  padding: 3px 15px;
+  border-radius: 3px;
+}
+section div.container div.public div.public-list div.row div.pub-rt div.agents-sec div.remen div.d2 a:hover {
+  background: #2f88a6;
+  color: #fff;
+}
 section div.container div.public div.public-list div.chas-sec {
   margin: auto;
   width: 565px;
@@ -746,6 +907,13 @@ section div.container div.public div.public-list div.chas-sec div.d2 input.in2 {
   }
 }
 @media screen and (max-width: 767px) {
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media.qa div.media-left {
+    width: 30%;
+  }
+  section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media.qa div.media-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
   section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-s div.hdjl-sec div.hd-top {
     padding: 20px;
   }

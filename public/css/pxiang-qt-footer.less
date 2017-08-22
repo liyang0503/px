@@ -22,10 +22,11 @@ footer {
                }
             }
             div.ul2-sec {
-               padding: 15px;
+               padding: 10px 15px;
                border: 1px solid @bj;
                display: none;
-               height: 148px;
+               height: 105px;
+               overflow-y: auto;
                &.active {
                   display: block;
                }
@@ -59,6 +60,7 @@ footer {
          text-align: center;
          padding: 15px 0;
          color: #767676;
+         position: relative;
          ul {
             display: inline-block;
             li {
@@ -76,6 +78,14 @@ footer {
          }
          p {
             line-height: 110%;
+         }
+         #_ideConac {
+            position: absolute;
+            top: 7px;
+            right: 200px;
+            #imgConac {
+               width: 60px;
+            }
          }
       }
       &.foot2 {
@@ -146,6 +156,13 @@ footer {
                   color: #fff;
                }
             }
+            #_ideConac {
+               top: 2px;
+               right: 100px;
+               #imgConac {
+                  width: 53px;
+               }
+            }
          }
       }
    }
@@ -161,6 +178,19 @@ footer {
                   a {
                      padding: 5px 10px;
                   }
+               }
+            }
+         }
+      }
+      div.foot {
+         div.container {
+            padding-right: 40px;
+            width: 99%;
+            #_ideConac {
+               top: 6px;
+               right: -5px;
+               #imgConac {
+                  width: 53px;
                }
             }
          }

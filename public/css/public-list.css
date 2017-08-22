@@ -104,10 +104,13 @@ section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media div.media-left a {
   display: block;
+  height: 150px;
+  overflow: hidden;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media div.media-left a img {
   display: block;
-  width: 100%;
+  width: 100% !important;
+  height: initial !important;
 }
 section div.container div.public div.public-list div.row div.pub-rt div.pub-rt-t div.media div.media-body a {
   display: block;

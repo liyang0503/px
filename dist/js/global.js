@@ -103,8 +103,6 @@ $(function () {
       $('.pub-le').css({height: rth});
    }
 
-//   悬停预览
-//    tabHover('.tab-hover-li', '.tab-hover-sec');
 
 });
 
@@ -147,25 +145,6 @@ function tab2(cli, sec) {
          }, function () {
             $(sec).removeClass('active');
             $($(sec)[i]).addClass('active');
-         });
-      });
-   });
-}
-
-//鼠标悬停预览、点击预览
-function tabHover(cli, sec) {
-   var i;
-   $(cli).parent().each(function (index) {
-      $(this).children(cli).each(function (ind) {
-         if ($(this).hasClass('active')) {
-            i = ind;
-         }
-         $(this).hover(function () {
-            $($(sec).parent()[index]).children(sec).removeClass('active');
-            $($($(sec).parent()[index]).children(sec)[ind]).addClass('active');
-         }, function () {
-            $($(sec).parent()[index]).children(sec).removeClass('active');
-            $($($(sec).parent()[index]).children(sec)[i]).addClass('active');
          });
       });
    });

@@ -19,10 +19,11 @@ footer div.foot-top div.container div.fot-ul2 ul.tit li.active {
   color: #fff;
 }
 footer div.foot-top div.container div.fot-ul2 div.ul2-sec {
-  padding: 15px;
+  padding: 10px 15px;
   border: 1px solid #2f88a6;
   display: none;
-  height: 148px;
+  height: 105px;
+  overflow-y: auto;
 }
 footer div.foot-top div.container div.fot-ul2 div.ul2-sec.active {
   display: block;
@@ -46,6 +47,7 @@ footer div.foot div.container {
   text-align: center;
   padding: 15px 0;
   color: #767676;
+  position: relative;
 }
 footer div.foot div.container ul {
   display: inline-block;
@@ -64,6 +66,14 @@ footer div.foot div.container ul li:last-child {
 }
 footer div.foot div.container p {
   line-height: 110%;
+}
+footer div.foot div.container #_ideConac {
+  position: absolute;
+  top: 7px;
+  right: 200px;
+}
+footer div.foot div.container #_ideConac #imgConac {
+  width: 60px;
 }
 footer div.foot.foot2 {
   background-image: url("https://img.sandbox.qixinyun.com/pxiang-nav-bj.jpg");
@@ -115,6 +125,13 @@ footer div.foot.foot2 div.container p a {
   footer div.foot div.container p a {
     color: #fff;
   }
+  footer div.foot div.container #_ideConac {
+    top: 2px;
+    right: 100px;
+  }
+  footer div.foot div.container #_ideConac #imgConac {
+    width: 53px;
+  }
 }
 @media screen and (max-width: 767px) {
   footer div.foot-top {
@@ -122,5 +139,16 @@ footer div.foot.foot2 div.container p a {
   }
   footer div.foot-top div.container div.fot-img div a {
     padding: 5px 10px;
+  }
+  footer div.foot div.container {
+    padding-right: 40px;
+    width: 99%;
+  }
+  footer div.foot div.container #_ideConac {
+    top: 6px;
+    right: -5px;
+  }
+  footer div.foot div.container #_ideConac #imgConac {
+    width: 53px;
   }
 }

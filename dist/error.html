@@ -9,7 +9,44 @@
    <link rel="shortcut icon" href="{{URL::asset('home/favicon.ico')}}" type="image/x-icon">
    <title>ERROR</title>
    <!--样式表-->
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         font-family: "微软雅黑";
+      }
 
+      div.error {
+         padding-top: 200px;
+         text-align: center;
+      }
+
+      @media (max-width: 767px) {
+         div.error {
+            padding-top: 20px;
+         }
+      }
+
+      div.err-s {
+         max-width: 478px;
+         margin: auto;
+         position: relative;
+      }
+
+      span.err {
+         position: absolute;
+         top: 0;
+         right: 90px;
+         font-size: 66px;
+         color: #d7daeb;
+      }
+
+      p.p1 {
+         font-size: 50px;
+         line-height: 150%;
+         color: #afafaf;
+      }
+   </style>
 </head>
 <body>
 <div class="error">

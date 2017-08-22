@@ -169,6 +169,19 @@ section div.container div.index div.index-le > div.row div.new div.new-sec div.m
 section div.container div.index div.index-le > div.row div.new div.new-sec div.media.qa {
   margin-bottom: 11px;
 }
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-left {
+  width: 53%;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-left a {
+  display: block;
+  height: 120px;
+  overflow: hidden;
+}
+section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-left a img {
+  display: block;
+  width: 100% !important;
+  height: initial !important;
+}
 section div.container div.index div.index-le > div.row div.new div.new-sec div.media div.media-body p {
   color: #999;
   font-size: 12px;
